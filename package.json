@@ -1,0 +1,22 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vittal288/nodeJS-udemmy-MongoDB_Mongoose_and_REST_APIs_-Todo-API-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vittal288/nodeJS-udemmy-MongoDB_Mongoose_and_REST_APIs_-Todo-API-/issues"
+  },
+  "homepage": "https://github.com/vittal288/nodeJS-udemmy-MongoDB_Mongoose_and_REST_APIs_-Todo-API-#readme",
+  "dependencies": {
+    "mongodb": "^2.2.11"
+  }
+}

@@ -1,0 +1,22 @@
+MongoDB
+--start mongodb 
+1.to start MongoDB data base
+path>mongod --dbpath="D:\Vittal\MongoDBData"
+2. to get mongodb console 
+path>mongo  
+
+connection syntact from nodeJS
+
+URL : mongodb://localhost:27017/TodoApp
+mongodb://hostName:port/port{27017}/databaseName
+
+-->if MongoDB is running from the machine then the above connection will successfull otherwise through error.
+-->If MongoDB running, if "TodoApp" database is not there in the MongoDB even thoug it will connect and this is the feaute of MongoDB
+-->Until you insert the collection in the database , it will not list in the MongoDB
+
+OBJECT Destructuring in ES6
+Pull out OBJECT and assigning to a viable
+
+var user ={name:"Vittal",age:28};
+var {name} =user //-->var name = user.name;
+console.log(name);
