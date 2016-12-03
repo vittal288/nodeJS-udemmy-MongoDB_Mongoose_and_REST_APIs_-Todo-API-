@@ -20,3 +20,37 @@ Pull out OBJECT and assigning to a viable
 var user ={name:"Vittal",age:28};
 var {name} =user //-->var name = user.name;
 console.log(name);
+
+
+MONGOOSE:
+1. Mongoose is a third party npm component and act as ORM(Object Relational  Mapping)
+2. It can be used for user authention , passowrd validation , property validation but writing all these boilerpalting instead we 
+   use Mongoose and it comes up with lot many features 
+3. it helps us to structure the data.
+4. Search for Mongoose validator :http://mongoosejs.com/docs/validation.html
+5. Default type casting does exist in Mongoose. If Default schema of data model's object is string then it can accept value like 
+   boolean values which default wrapped in double quotes and also accept int values which wrapped in double quotes as well.
+For example:
+var TodoModel = Mongoose.model({
+    text:{
+        type:String,
+    }
+});
+
+but text an accept values like true/false and numbuers as well but which are wrapped in double quotes.
+
+var NewTodoInsertData = new TodoModel({
+    text:true / text:123 / text:"some string"
+});
+
+NewTodoInsertData.save().callbackPromiseFn();
+
+
+BODY-PARSER
+1. this is npm component and it parses the body of request which comes from cleint and send to server.
+2. Converts basically JSON string from client req object to JSON object to server.
+
+
+Questions to be asked
+1. While unit testing rest api, we operating the DB transanction on application database but it could not be actual scenario rt
+ 
