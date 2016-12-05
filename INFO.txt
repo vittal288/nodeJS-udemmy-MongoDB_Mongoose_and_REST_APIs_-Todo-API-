@@ -51,6 +51,12 @@ BODY-PARSER
 2. Converts basically JSON string from client req object to JSON object to server.
 
 
+TESTING 
+convert object id to string, while testing /todos/:id route 
+_id.toHexString()
+
+
 Questions to be asked
 1. While unit testing rest api, we operating the DB transanction on application database but it could not be actual scenario rt
+2. Code coverage report
  

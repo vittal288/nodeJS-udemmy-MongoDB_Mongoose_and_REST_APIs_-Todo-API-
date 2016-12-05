@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const {ObjectID} = require('mongodb');
 //------------------------------------------------------
 var {mongoose} = require('./db/mongoose');
 var {Todo} = require('./models/todos');
@@ -8,6 +9,8 @@ var {User} = require('./models/user');
 var app = express();
 //set the middleware to express
 app.use(bodyParser.json());
+
+const PORT = process.env.PORT || 3000;
 
 //Define the resource end points
 app.post('/todos',(req,res)=>{   
@@ -26,9 +29,9 @@ app.post('/todos',(req,res)=>{
 
 app.get("/todos",(req,res)=>{
 
-    Todo.find().then((docs)=>{
+    Todo.find().then((todos)=>{
         res.send({
-        docs,
+        todos,
         process:"done",
         customCode:111
     });
@@ -37,8 +40,62 @@ app.get("/todos",(req,res)=>{
     });
 });
 
-app.listen(3000,()=>{
-    console.log("Server is up on port 3000");
+//fetch todos by id
+app.get('/todos/:id',(req,res)=>{
+    //res.send(req.params);
+    var id = req.params.id;
+    if(! ObjectID.isValid(id)){        
+        return res.status(404).send();
+    }
+
+    Todo.findById(id).then((todo)=>{
+        if(!todo){
+            return res.status(404).send();
+        }
+        res.send({todo});
+    }).catch((err)=>{
+        res.status(400).send(err);
+    });
+
+});
+
+//remove all docs
+app.get('/todoRemoveAll',(req,res)=>{
+
+    Todo.remove({}).then((result)=>{
+        res.send({
+            "result":`Succesfully removed ${result.result.n} records !!!`
+        })
+    }).catch((err)=>{
+        res.status(400).send(err);
+    });
+});
+
+
+//remove the doc by id
+app.get('/todoRemove/:id',(req,res)=>{
+    var _id = req.params.id; 
+    if(!ObjectID.isValid){
+        return res.status(404).send();
+    }
+
+    Todo.findByIdAndRemove({
+        _id :_id
+    }).then((doc)=>{
+        if(!doc){
+            return res.status(404).send("No Records Found !!!");
+        }
+
+        res.send(doc);
+    }).catch((err)=>{
+        res.status(400).send(err);
+    })
+});
+
+
+
+app.listen(PORT,()=>{
+    console.log(`Server is up on port ${PORT}`);
 });
 
 module.exports ={app};
