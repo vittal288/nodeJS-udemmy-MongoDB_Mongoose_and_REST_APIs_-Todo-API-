@@ -1,3 +1,5 @@
+require('./config/config');
+
 const _ = require('lodash');
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -11,7 +13,8 @@ var app = express();
 //set the middleware to express
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 3000;
+//this is already set in prod environment
+const PORT = process.env.PORT;
 
 //Define the resource end points
 app.post('/todos',(req,res)=>{   

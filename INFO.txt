@@ -72,4 +72,7 @@ Questions to be asked
 2. Code coverage report
 
 
+While running test command in windows, update the following line in package.JSON
+"test": "export NODE_ENV=test || \"SET NODE_ENV=test\" && mocha server/**/*.test.js",
+
  
