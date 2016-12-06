@@ -60,11 +60,11 @@ app.get('/todos/:id',(req,res)=>{
 });
 
 //remove all docs
-app.get('/todoRemoveAll',(req,res)=>{
+app.delete('/todos',(req,res)=>{
 
     Todo.remove({}).then((result)=>{
         res.send({
-            "result":`Succesfully removed ${result.result.n} records !!!`
+            "result":`Succesfully removed ${result.result.n (all)} records !!!`
         })
     }).catch((err)=>{
         res.status(400).send(err);
@@ -73,7 +73,7 @@ app.get('/todoRemoveAll',(req,res)=>{
 
 
 //remove the doc by id
-app.get('/todoRemove/:id',(req,res)=>{
+app.delete('/todo/:id',(req,res)=>{
     var _id = req.params.id; 
     if(!ObjectID.isValid){
         return res.status(404).send();
@@ -81,12 +81,12 @@ app.get('/todoRemove/:id',(req,res)=>{
 
     Todo.findByIdAndRemove({
         _id :_id
-    }).then((doc)=>{
-        if(!doc){
+    }).then((todo)=>{
+        if(!todo){
             return res.status(404).send("No Records Found !!!");
         }
 
-        res.send(doc);
+        res.send(todo);
     }).catch((err)=>{
         res.status(400).send(err);
     })
