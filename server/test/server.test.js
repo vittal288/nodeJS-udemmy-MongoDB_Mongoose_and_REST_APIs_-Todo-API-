@@ -8,10 +8,12 @@ const {Todo} = require('./../models/todos');
 
 const todos =[{
     _id:new ObjectID(),
-    text:"Sample Todo name"
+    text:"Sample Todo name",
 },{
     _id:new ObjectID(),
-    text:"Go to home"
+    text:"Go to home",
+    completed:true,
+    completedAt:333
 },{
     _id:new ObjectID(),
     text :"Eat Food"
@@ -161,11 +163,11 @@ describe("DELETE /todo/:id",()=>{
             }
 
             //Database check , whether data is removed or not check in the data base 
-            Todo.find().then((docs)=>{
-                expect(docs.length).toBe(todos.length-1);
-               // expect(docs._id).toNotExist(hexId);
-                done();
-            }).catch((err)=>done(err));
+            // Todo.find().then((docs)=>{
+            //     expect(docs.length).toBe(todos.length-1);
+            //    // expect(docs._id).toNotExist(hexId);
+            //     done();
+            // }).catch((err)=>done(err));
 
             //OR , check the deleted record does not exist into DB
             Todo.findById(hexId).then((doc)=>{
@@ -192,5 +194,60 @@ describe("DELETE /todo/:id",()=>{
         .end(done);
     });
 
-})
+});
+
+
+describe("UPDATE /todos:id",()=>{
+    it("should update the todo",(done)=>{
+        var hexId = todos[0]._id.toHexString();
+        //console.log(hexId);
+        var text = "I am updating from unit test ";
+        request(app)
+        .patch(`/todo/${hexId}`)
+        .send({
+            text:text,
+            completed:true
+        })
+        .expect(200)
+        .expect((res)=>{
+            expect(res.body.todo.text).toBe(text);
+            expect(res.body.todo.completed).toBe(true);
+            expect(res.body.todo.completedAt).toBeA("number");
+        })
+        .end(done);
+        //check database is updated or not
+        // .end((err,res)=>{
+        //     if(err){
+        //         return console.log(err)
+        //     }
+
+        //     Todo.findById(hexId).then((doc)=>{
+        //         console.log("###DB",doc);
+        //         expect(doc.todo.text).toBeA(updateObj.text);
+        //         done();
+        //     }).catch((err)=>done(err));
+        // });
+
+    });
+
+    it("should clear the completedAt when todo is not completed",(done)=>{
+            var hexId = todos[1]._id.toHexString();
+            var text = "I am updating too.. from unit test";
+
+            request(app)
+            .patch(`/todo/${hexId}`)
+            .send({
+                completed:false,
+                text
+            })
+            .expect(200)
+            .expect((res)=>{
+                expect(res.body.todo.text).toBe(text);
+                expect(res.body.todo.completed).toBe(false);
+                //if todo is not completed then completedAt property does not exist
+                expect(res.body.todo.completedAt).toNotExist();
+            })
+           .end(done);
+    });
+});
     
