@@ -1,3 +1,4 @@
+const _ = require('lodash');
 const express = require('express');
 const bodyParser = require('body-parser');
 const {ObjectID} = require('mongodb');
@@ -99,6 +100,72 @@ app.delete('/todo/:id',(req,res)=>{
     }).catch((err)=>{
         res.status(400).send(err);
     })
+});
+
+
+//UPDATE
+/***
+ * request object 
+ * 
+ {
+	"completed":false,
+	"text":"I am updating..."
+}
+
+OR 
+{
+	"completed":true
+}
+
+o/p-->
+{
+  "todo": {
+    "_id": "5846a0bd4fff5c1858061bb0",
+    "__v": 0,
+    "text": "I am updating...",
+    "completedAt": null,
+    "completed": false
+  }
+}
+OR{
+  "todo": {
+    "_id": "5846a0bd4fff5c1858061bb0",
+    "__v": 0,
+    "text": "I am updating...",
+    "completedAt": 1481028273184,
+    "completed": true
+  }
+}
+ */
+app.patch('/todo/:id',(req,res)=>{
+    var _id = req.params.id;
+    if(!ObjectID.isValid(_id)){
+        return res.status(404).send()
+    }
+    //console.log(_id);
+    //pick(utility method from lodash) only required fields from req object to update into DB 
+    var body = _.pick(req.body,['text','completed']);
+
+
+    //double check for boolean value , if the task completed from the user and if sends true then only we have to update completedAt field 
+    if(_.isBoolean(body.completed) && body.completed){
+        //completedAt is key name from todo model ,
+        body.completedAt = new Date().getTime();
+    }else{
+        body.completed= false;
+        body.completedAt = null
+    }
+
+    //do database transanction 
+    Todo.findOneAndUpdate(_id,{$set:body},{new:true}).then((todo)=>{
+        if(!todo){
+            return res.status(404).send()
+        }
+        res.send({todo})
+    },(err)=>{
+        res.status(400).send(err);
+    })
+
 });
 
 
