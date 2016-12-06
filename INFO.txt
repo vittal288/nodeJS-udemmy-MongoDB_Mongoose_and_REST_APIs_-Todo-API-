@@ -56,7 +56,17 @@ convert object id to string, while testing /todos/:id route
 _id.toHexString()
 
 
+Deleting Records:
+Todo.findOneAndRemove({anyKey:val});delete and returns the deleted doc
+Todo.findByIdAndRemove({_id:val});delete and returns the deleted doc
+OR
+Todo.findByIdAndRemove('id in string');delete and returns the deleted doc
+Todo.remove({});delete all docs 
+
+
 Questions to be asked
 1. While unit testing rest api, we operating the DB transanction on application database but it could not be actual scenario rt
 2. Code coverage report
+
+
  

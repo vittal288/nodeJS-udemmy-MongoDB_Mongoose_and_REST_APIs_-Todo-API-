@@ -125,46 +125,61 @@ describe("GET /todos/:id",()=>{
 });
 
 
-describe("GET /todoRemoveAll",()=>{
+describe("DELETE ALL /todos",()=>{
     
     it("should remove all todos",(done)=>{
         request(app)
-        .get('/todoRemoveAll')
+        .delete('/todos')
         .expect(200)
-        // .expect((res)=>{
-        //     //console.log(res);
-        //     expect(res.result.n).toBe(todos.length);
-        // })
         .end((err,res)=>{
             if(err){
                 return console.log(err)
             }
 
             Todo.find().then((docs)=>{
-                expect(docs.length).toBe(todos.length);
-            });
-            done();
+                expect(docs.length).toBe(0);
+                done();
+            }).catch((err) => done(err));
+            
         });
     });
 });
 
 
-describe("GET /todoRemove/:id",()=>{
+describe("DELETE /todo/:id",()=>{
     it("should remove todo by id",(done)=>{
         var hexId = todos[0]._id.toHexString();
         request(app)
-        .get(`/todoRemove/${hexId}`)
+        .delete(`/todo/${hexId}`)
         .expect(200)
-        .expect((doc)=>{
-            expect(doc.body._id.toString()).toBe(todos[0]._id.toString());
+        .expect((res)=>{
+            expect(res.body.todo._id).toBe(hexId);
         })
-        .end(done);
+        .end((err,res)=>{
+            if(err){
+                return console.log(err);
+            }
+
+            //Database check , whether data is removed or not check in the data base 
+            Todo.find().then((docs)=>{
+                expect(docs.length).toBe(todos.length-1);
+               // expect(docs._id).toNotExist(hexId);
+                done();
+            }).catch((err)=>done(err));
+
+            //OR , check the deleted record does not exist into DB
+            Todo.findById(hexId).then((doc)=>{
+                expect(doc).toNotExist();
+                done();
+            }).catch((err)=>done(err));
+            
+        });
     });
 
     it('should return 404 if todo is not found',(done)=>{
         var _hexId = new ObjectID().toHexString();
         request(app)
-        .get(`/todoRemove/${_hexId}`)
+        .delete(`/todo/${_hexId}`)
         .expect(404)
         .end(done);
     });
@@ -172,7 +187,7 @@ describe("GET /todoRemove/:id",()=>{
     it("should return 400 for non-ObjectID",(done)=>{
         var _hexid = todos[0]._id.toHexString()+1 || '123abc'
         request(app)
-        .get(`/todoRemove/${_hexid}`)
+        .delete(`/todo/${_hexid}`)
         .expect(400)
         .end(done);
     });
