@@ -46,6 +46,8 @@ var NewTodoInsertData = new TodoModel({
 NewTodoInsertData.save().callbackPromiseFn();
 
 
+
+
 BODY-PARSER
 1. this is npm component and it parses the body of request which comes from cleint and send to server.
 2. Converts basically JSON string from client req object to JSON object to server.
@@ -70,6 +72,21 @@ https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/questions/
 Questions to be asked
 1. While unit testing rest api, we operating the DB transanction on application database but it could not be actual scenario rt
 2. Code coverage report
+3. When we have to use catch() block and when we have to use then() method with err & res params, while handling promises
+
+with then
+ user.save().then((user)=>{
+        res.send(user);
+    },(err)=>{
+        res.status(400).send(err);
+    });
+
+with catch block     
+ user.save().then((user)=>{
+        res.send(user);
+ }).catch((err)=>{
+    res.status(400).send(err);
+ )}
 
 
 While running test command in windows, update the following line in package.JSON
@@ -78,4 +95,9 @@ While running test command in windows, update the following line in package.JSON
 
 For mLab(online free mongodb) login to https://mlab.com/
 with username/passowrd for the account 
+
+
+@@@ ARROW function @@@ 
+()=>{}
+Arrow function does not support this keyword
  

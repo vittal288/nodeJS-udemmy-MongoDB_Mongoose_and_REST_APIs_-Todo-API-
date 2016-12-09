@@ -26,7 +26,7 @@ app.post('/todos',(req,res)=>{
         res.send(doc);
     },(err)=>{
         res.status(400).send(err);
-    })
+    });
 
 }); 
 
@@ -107,39 +107,6 @@ app.delete('/todo/:id',(req,res)=>{
 
 
 //UPDATE
-/***
- * request object 
- * 
- {
-	"completed":false,
-	"text":"I am updating..."
-}
-
-OR 
-{
-	"completed":true
-}
-
-o/p-->
-{
-  "todo": {
-    "_id": "5846a0bd4fff5c1858061bb0",
-    "__v": 0,
-    "text": "I am updating...",
-    "completedAt": null,
-    "completed": false
-  }
-}
-OR{
-  "todo": {
-    "_id": "5846a0bd4fff5c1858061bb0",
-    "__v": 0,
-    "text": "I am updating...",
-    "completedAt": 1481028273184,
-    "completed": true
-  }
-}
- */
 app.patch('/todo/:id',(req,res)=>{
     var _id = req.params.id;
     if(!ObjectID.isValid(_id)){
@@ -170,6 +137,35 @@ app.patch('/todo/:id',(req,res)=>{
     })
 
 });
+
+
+
+
+
+
+/***USER related routes***/
+app.post('/users',(req,res)=>{
+    
+    var body = _.pick(req.body,['email','password']);//which returns an object 
+    //this the document which we are saving into db, which has method called save() 
+    var user = new User(body);
+    
+    //Model method , which should call with capital letter
+    //User.findByToken
+    //Instance method
+    //user.generateAuthToken
+   
+    user.save().then(()=>{
+        return user.generateAuthToken();
+        //res.send(user);
+    }).then((token)=>{
+        res.header('x-auth',token).send(user);
+    }).catch((err)=>{
+        res.status(400).send(err);
+    });
+
+});
+
 
 
 
