@@ -15,7 +15,7 @@ var authenticate = (req,res,next)=>{
 
        req.user =user;
        req.token = token;
-       next();//if we not call this method here , then it won't execute 
+       next();//if we not call this method here ,then it won't execute the next line of code ,from where the authenticate method is invoked for example /users/me
         
     }).catch((err)=>{ // catch block will execute for invalid token 
         //401, authentication is failed 
