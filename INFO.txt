@@ -100,4 +100,16 @@ with username/passowrd for the account
 @@@ ARROW function @@@ 
 ()=>{}
 Arrow function does not support this keyword
+
+@@@@ INSTANCE METHOD and MODEL METHOD @@@
+-->Instance method, small u(user)
+UserSchema.methods.generateAuthToken = function(){
+    var user = this;
+};
+-->Model method, capital letter U(User)
+UserSchema.statics.findByToken = function(){
+
+};
+
+
  

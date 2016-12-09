@@ -43,6 +43,11 @@ UserSchema.methods.toJSON = function(){
     var userObject = user.toObject();
     return _.pick(userObject,['_id','email']);
 };
+/**
+ * INSTANCE method
+ * var user = this;
+ * instance method is responsible a document or records
+ */
 //here we are not using the arrow function, since it does not support this keyword to point to current user or doc
 UserSchema.methods.generateAuthToken = function(){
     
@@ -59,7 +64,41 @@ UserSchema.methods.generateAuthToken = function(){
         return token;
     });
 };
+/**
+ * MODEL METHOD 
+ * var User = this
+ * Model method is responsible for entire model or enitre schema
+ * 
+ */
+//To define Model method 
+UserSchema.statics.findByToken = function(token){
+    //entire Model or schema is pointing to User from this
+    var User = this;
+    var decoded;
+
+    try{
+        decoded = jwt.verify(token,'abc123');
+    }catch(err){
+        // return new Promise((resolve,reject)=>{
+        //     reject();
+        // });
+        //OR
+        //return Promise.reject('some text');
+        //OR
+        return Promise.reject(err);
+    }
+
+    //success care , if found that there is no man in middle attack 
+    //if we return here, we can get this response in then block in server.js file 
+    return User.findOne({
+        _id:decoded._id,
+        //to read token from token array from USER SCHEMA 
+        'tokens.token':token,
+        'tokens.access':'auth'
+    });
+};
+
+
+
 var User = mongoose.model('User',UserSchema);
-
-
 module.exports ={User};

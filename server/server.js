@@ -4,10 +4,12 @@ const _ = require('lodash');
 const express = require('express');
 const bodyParser = require('body-parser');
 const {ObjectID} = require('mongodb');
+//mongoose.promise = global.promise;
 //------------------------------------------------------
 var {mongoose} = require('./db/mongoose');
 var {Todo} = require('./models/todos');
 var {User} = require('./models/user');
+var {authenticate} = require('./middleware/authenticate');
 //------------------------------------------------------
 var app = express();
 //set the middleware to express
@@ -164,6 +166,12 @@ app.post('/users',(req,res)=>{
         res.status(400).send(err);
     });
 
+});
+
+
+//private route
+app.get('/users/me',authenticate,(req,res)=>{
+    res.send(req.user);
 });
 
 
