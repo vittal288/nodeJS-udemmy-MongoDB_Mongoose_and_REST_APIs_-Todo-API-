@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const jwt = require('jsonwebtoken');
 const _ = require('lodash');
+const bcrypt = require('bcryptjs');
 //User Modal
 //mongoose.model("collectionName",{Schema});
 //To add method to user model , we have to use following mongoose Schema
@@ -97,6 +98,24 @@ UserSchema.statics.findByToken = function(token){
         'tokens.access':'auth'
     });
 };
+
+//this method runs before the event which is mentioned,
+//currently this method runs before, UserSchema saves to DB 
+UserSchema.pre('save',function(next){
+    var user = this;
+    //checking if the password field is modified, then only we can hash. Otherwise we are wrong stage where we can hash the possowrd which is already hashed and it leads to wrong results 
+    if(user.isModified('password')){
+        bcrypt.genSalt(10,(err,salt)=>{
+            bcrypt.hash(user.password,salt,(err,hash)=>{
+                user.password = hash;
+                next();
+            });
+        })
+    }else{
+        next();
+    }
+    
+});
 
 
 
