@@ -55,8 +55,7 @@ UserSchema.methods.generateAuthToken = function(){
     var user = this;
     var access ='auth';
     //jwt.sign({id},'secretekey')
-    var token = jwt.sign({_id:user._id.toHexString(),access},'abc123').toString();
-    console.log(token);
+    var token = jwt.sign({_id:user._id.toHexString(),access},'abc123').toString();   
     //pushing genereated token to user's token array which is declared in above schema
     user.tokens.push({access,token});
     
@@ -65,6 +64,24 @@ UserSchema.methods.generateAuthToken = function(){
         return token;
     });
 };
+
+//deleting the token once user log out 
+//creating an instance method 
+UserSchema.methods.removeToken=function(token){
+    var user = this;
+    //$pull opertor is of mongoose lib and it removes the object from an array if matches the criteria  
+    //pulling out token property from token array if it matches the token which accepting as parameter 
+    return user.update({
+        $pull:{
+            tokens:{
+                token:token
+            }
+        }
+    })
+};
+
+
+
 /**
  * MODEL METHOD 
  * var User = this
@@ -116,6 +133,30 @@ UserSchema.pre('save',function(next){
     }
     
 });
+
+
+UserSchema.statics.findByCredentials = function(email,password){
+
+    //we are making promise here to handle the response in server.js
+    return User.findOne({email}).then((user)=>{
+        //console.log(JSON.stringify(user,undefined,2));
+        if(!user){
+            return Promise.reject();
+        }
+        //for successfull user 
+        //bcryptJS will not use promise in its library , sinc we are handling the promise resolve and rjection in server.js so we are implementing here
+        return new Promise((resolve,reject)=>{
+            //comparing user login password and stored hashed password 
+            bcrypt.compare(password,user.password,(err,res)=>{                      
+                if(res){
+                   resolve(user);                   
+                }else{
+                    reject();
+                }                
+            });
+        });
+    });
+};
 
 
 

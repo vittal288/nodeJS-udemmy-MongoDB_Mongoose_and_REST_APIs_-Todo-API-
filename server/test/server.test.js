@@ -312,3 +312,80 @@ describe("POST /users",()=>{
 });
 
 
+describe("POST /users/login",()=>{
+    
+    it("should login user and return auth token",(done)=>{        
+        request(app)
+        .post('/users/login')
+        .send({
+            email:users[1].email,
+            password:users[1].password
+        })
+        .expect(200)
+        .expect((res)=>{
+            expect(res.headers['x-auth']).toExist();
+        })
+        //check whether we created a token or not
+        .end((err,res)=>{
+            if(err){
+                return done(err);
+            }
+            User.findById({_id:users[1]._id}).then((user)=>{
+                //expect whether returned user object is inluded a token or not 
+                //toInclude is usded for object mapping 
+                expect(user.tokens[0]).toInclude({
+                    access:'auth',
+                    token:res.headers["x-auth"]
+                });
+                done();
+            }).catch((err)=>done(err)); 
+        });
+    });
+
+    it("should reject invlalid login",(done)=>{
+        request(app)
+        .post('/users/login')
+        .send({
+            email:users[1].email,
+            password:users[1].password+1
+        })
+        .expect(400)
+         .expect((res)=>{
+             expect(res.headers['x-auth']).toNotExist();
+         })
+        .end((err,res)=>{
+            if(err){
+                return done(err);
+            }
+            User.findById({_id:users[1]._id}).then((user)=>{                
+                expect(user.tokens.length).toBe(0)
+                done();
+            }).catch((err)=>done(err));
+        });
+    });
+});
+
+describe("DELETE /users/me/token",()=>{
+
+    it('should remove auth token after logout',(done)=>{
+
+        request(app)
+        .delete('/users/me/token')
+        .set('x-auth',users[0].tokens[0].token)
+        .expect(200)
+        //check in the db whether the token object is deleted or not 
+        //Asynchrous assertion 
+        .end((err,res)=>{
+            if(err){
+                return done(err)
+            }   
+
+            User.findById({_id:users[0]._id}).then((user)=>{
+                expect(user.tokens.length).toBe(0);
+                expect(user.tokens[0]).toNotExist();
+                done();
+            }).catch((err)=>done(err));         
+        })
+    })
+});
+

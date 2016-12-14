@@ -90,7 +90,10 @@ with catch block
 
 
 While running test command in windows, update the following line in package.JSON
+Windows 
 "test": "export NODE_ENV=test || \"SET NODE_ENV=test\" && mocha server/**/*.test.js",
+Mach machine
+"test": "export NODE_ENV=test || SET NODE_ENV=test && mocha server/**/*.test.js",
 
 
 For mLab(online free mongodb) login to https://mlab.com/

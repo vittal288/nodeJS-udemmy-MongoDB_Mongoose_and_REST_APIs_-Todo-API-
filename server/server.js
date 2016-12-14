@@ -16,6 +16,7 @@ var app = express();
 app.use(bodyParser.json());
 
 //this is already set in prod environment
+console.log("##### PORT" ,process.env.PORT);
 const PORT = process.env.PORT;
 
 //Define the resource end points
@@ -172,6 +173,36 @@ app.post('/users',(req,res)=>{
 //private route
 app.get('/users/me',authenticate,(req,res)=>{
     res.send(req.user);
+});
+
+
+//User's Login 
+app.post('/users/login',(req,res)=>{
+
+    var body = _.pick(req.body,['email','password']);        
+    User.findByCredentials(body.email,body.password).then((user)=>{
+        //res.send(user);
+
+        return user.generateAuthToken().then((token)=>{
+            res.header('x-auth',token).send(user);
+        });
+
+    }).catch((err)=>{
+        res.status(400).send()
+    })
+
+});
+
+//user logout ,once we log out from the application , we have to delete the dynamically generated token everytime from user 
+app.delete('/users/me/token',authenticate,(req,res)=>{
+
+    //add a method to instance of user , because this is releated to each user 
+    //req.user object is appended in middleware/authentication.js in line no 16 and 17
+    req.user.removeToken(req.token).then(()=>{
+        res.status(200).send()
+    },(err)=>{
+        res.status(400).send();
+    });
 });
 
 
