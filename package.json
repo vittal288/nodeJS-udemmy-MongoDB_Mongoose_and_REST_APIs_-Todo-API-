@@ -6,7 +6,7 @@
   "scripts": {
     "start": "export NODE_ENV=prod || SET NODE_ENV=prod && node server/server.js",
     "start-dev": "node server/server.js",
-    "test":"mocha server/test/*.test.js",
+    "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha server/**/*.test.js",
     "test-watch": "nodemon --exec npm test"
   },
   "engines": {
