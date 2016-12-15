@@ -19,10 +19,11 @@ app.use(bodyParser.json());
 console.log("##### PORT" ,process.env.PORT);
 const PORT = process.env.PORT;
 
-//Define the resource end points
-app.post('/todos',(req,res)=>{   
+//Define the resource end points, while making the routes to private: call authenticate fn
+app.post('/todos',authenticate,(req,res)=>{   
     var todo = new Todo({
-        text:req.body.text
+        text:req.body.text,
+        _creator:req.user._id
     });
 
     todo.save().then((doc)=>{
@@ -34,9 +35,11 @@ app.post('/todos',(req,res)=>{
 }); 
 
 
-app.get("/todos",(req,res)=>{
+app.get("/todos",authenticate,(req,res)=>{
 
-    Todo.find().then((todos)=>{
+    Todo.find({
+        _creator:req.user._id
+    }).then((todos)=>{
         res.send({
         todos,
         process:"done",
@@ -48,14 +51,17 @@ app.get("/todos",(req,res)=>{
 });
 
 //fetch todos by id
-app.get('/todos/:id',(req,res)=>{
+app.get('/todos/:id',authenticate,(req,res)=>{
     //res.send(req.params);
-    var id = req.params.id;
-    if(! ObjectID.isValid(id)){        
+    var _id = req.params.id;
+    if(! ObjectID.isValid(_id)){        
         return res.status(404).send();
     }
 
-    Todo.findById(id).then((todo)=>{
+    Todo.findOne({
+        _id:_id,
+        _creator:req.user._id
+    }).then((todo)=>{
         if(!todo){
             return res.status(404).send();
         }
@@ -74,10 +80,12 @@ OR
 Todo.findByIdAndRemove('id in string');delete and returns the deleted doc
 Todo.remove({});delete all docs 
 */
-app.delete('/todos',(req,res)=>{
+app.delete('/todos',authenticate,(req,res)=>{
 
     //console.log("Delete all",req);
-    Todo.remove({}).then((result)=>{
+    Todo.remove({
+        _creator:req.user._id
+    }).then((result)=>{
         res.send({
             "result":`Succesfully removed ${result.result.n } (all) records !!!`
         })
@@ -89,14 +97,15 @@ app.delete('/todos',(req,res)=>{
 
 //remove the doc by id
 
-app.delete('/todo/:id',(req,res)=>{
+app.delete('/todo/:id',authenticate,(req,res)=>{
     var _id = req.params.id; 
     if(!ObjectID.isValid){
         return res.status(404).send();
     }
 
-    Todo.findByIdAndRemove({
-        _id :_id
+    Todo.findOneAndRemove({
+        _id :_id,
+        _creator:req.user._id
     }).then((todo)=>{
         if(!todo){
             return res.status(404).send();
@@ -110,7 +119,7 @@ app.delete('/todo/:id',(req,res)=>{
 
 
 //UPDATE
-app.patch('/todo/:id',(req,res)=>{
+app.patch('/todo/:id',authenticate,(req,res)=>{
     var _id = req.params.id;
     if(!ObjectID.isValid(_id)){
         return res.status(404).send()
@@ -130,7 +139,10 @@ app.patch('/todo/:id',(req,res)=>{
     }
 
     //do database transanction 
-    Todo.findOneAndUpdate(_id,{$set:body},{new:true}).then((todo)=>{
+    Todo.findOneAndUpdate({
+        _id:_id,
+        _creator:req.user._id
+    },{$set:body},{new:true}).then((todo)=>{
         if(!todo){
             return res.status(404).send()
         }

@@ -1,0 +1,17 @@
+{
+    "test":{
+        "PORT":3000,
+        "MONGODB_URI":"mongodb://localhost:27017/TodosAppTest",
+        "JWT_SECRETE":"asd1231sdfsfsdf093i20oi@234123o890()"
+    },
+    "development":{
+         "PORT":3000,
+         "MONGODB_URI":"mongodb://localhost:27017/TodosApp",
+         "JWT_SECRETE":"asdasd12p3$5%aldkjaldkjadjaksdj"
+    },
+    "prod":{
+        "PORT":3000,
+        "MONGODB_URI":"mongodb://admin-vittal288:welcome123@ds127928.mlab.com:27928/todoapp-vittal288",
+        "JWT_SECRETE":"asdasd12p3$5%12333###ASASDADASDAdasdadd"
+    }
+}

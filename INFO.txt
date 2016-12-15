@@ -115,4 +115,17 @@ UserSchema.statics.findByToken = function(){
 };
 
 
+@@@ 
+CONFIG.JSON 
+@@@@
+for security reason, since it containing the valuable information , we have to ignore it to git 
+server/config/config.json
+
+
+
+IMPROVMENTS:
+Integrate Swagger 
+Integrate code coverage 
+Seeting JWT_SECRETE key is pending with heroku , once you set it remove it from config.json file 
+
  
