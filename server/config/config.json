@@ -12,6 +12,6 @@
     "prod":{
         "PORT":3000,
         "MONGODB_URI":"mongodb://admin-vittal288:welcome123@ds127928.mlab.com:27928/todoapp-vittal288",
-        "JWT_SECRETE":"asdasd12p3$5%12333###ASASDADASDAdasdadd"
+        "JWT_SECRETE":"asdasda1231235435345dasd@#2342"
     }
 }
