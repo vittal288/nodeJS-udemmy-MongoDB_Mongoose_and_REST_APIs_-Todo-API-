@@ -47,7 +47,7 @@ newTodo.save().then((doc)=>{
     console.log("Saved a document",doc);
 },(err)=>{
     console.log("Unable to save the document ",err);
-})
+});
 
 //console.log("DATE" , new Date().getTime());
 var newTodo1 = new Todo({

@@ -1,4 +1,7 @@
-const {SHA256} = require('crypto-js');//we are not using this module in our app , since we have to write lot of code
+/*
+ * we are not using this module in our app , since we have to write lot of code
+ */
+const {SHA256} = require('crypto-js');  
 
 const jwt = require('jsonwebtoken');//which has to method sign and verify
 

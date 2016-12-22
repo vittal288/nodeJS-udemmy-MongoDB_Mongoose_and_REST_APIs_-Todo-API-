@@ -20,8 +20,8 @@ var authenticate = (req,res,next)=>{
     }).catch((err)=>{ // catch block will execute for invalid token 
         //401, authentication is failed 
         res.status(401).send();
-    })
-}
+    });
+};
 
 
 module.exports = {authenticate};

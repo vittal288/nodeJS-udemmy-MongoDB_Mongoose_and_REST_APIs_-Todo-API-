@@ -138,7 +138,7 @@ describe("DELETE ALL /todos",()=>{
         .expect(200)
         .end((err,res)=>{
             if(err){
-                return console.log(err)
+                return console.log(err);
             }
 
             Todo.find().then((docs)=>{
@@ -219,7 +219,7 @@ describe("DELETE /todo/:id",()=>{
     });
 
     it("should return 400 for non-ObjectID",(done)=>{
-        var _hexid = todos[0]._id.toHexString()+1 || '123abc'
+        var _hexid = todos[0]._id.toHexString()+1 || '123abc';
         request(app)
         .delete(`/todo/${_hexid}`)
         .set('x-auth',users[0].tokens[0].token)
@@ -346,7 +346,7 @@ describe("POST /users",()=>{
 
     if("should throw validation error if request is invalid",(done)=>{
         //passing password with 3 charectors length and it should be min length is 5
-        var testUser ={email:'test',password:'1234'}
+        var testUser ={email:'test',password:'1234'};
 
         request(app)
         .post('/users')
@@ -413,7 +413,7 @@ describe("POST /users/login",()=>{
                 return done(err);
             }
             User.findById({_id:users[1]._id}).then((user)=>{                
-                expect(user.tokens.length).toBe(1)
+                expect(user.tokens.length).toBe(1);
                 done();
             }).catch((err)=>done(err));
         });
@@ -432,7 +432,7 @@ describe("DELETE /users/me/token",()=>{
         //Asynchrous assertion 
         .end((err,res)=>{
             if(err){
-                return done(err)
+                return done(err);
             }   
 
             User.findById({_id:users[0]._id}).then((user)=>{
@@ -440,7 +440,7 @@ describe("DELETE /users/me/token",()=>{
                 expect(user.tokens[0]).toNotExist();
                 done();
             }).catch((err)=>done(err));         
-        })
-    })
+        });
+    });
 });
 

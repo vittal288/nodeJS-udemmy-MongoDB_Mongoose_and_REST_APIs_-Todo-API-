@@ -1,0 +1,2286 @@
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\hashing.js
+   1:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:80   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:8    error  'SHA256' is assigned a value but never used      no-unused-vars
+   4:39   error  Trailing spaces not allowed                      no-trailing-spaces
+   4:41   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:7    error  'jwt' is assigned a value but never used         no-unused-vars
+   6:37   error  Expected space or tab after '//' in comment      spaced-comment
+   6:74   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:36   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:1    error  More than 2 blank lines not allowed              no-multiple-empty-lines
+   9:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:1    error  Expected space or tab after '//' in comment      spaced-comment
+  12:18   error  Trailing spaces not allowed                      no-trailing-spaces
+  12:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:1    error  Unexpected var, use let or const instead         no-var
+  14:15   error  Strings must use singlequote                     quotes
+  14:24   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:1    error  Expected space or tab after '//' in comment      spaced-comment
+  15:1    error  Line 15 exceeds the maximum line length of 80    max-len
+  15:117  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:1    error  Expected space or tab after '//' in comment      spaced-comment
+  16:1    error  Line 16 exceeds the maximum line length of 80    max-len
+  16:107  error  Trailing spaces not allowed                      no-trailing-spaces
+  16:108  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:47   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:11   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:7    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:1    error  Unexpected var, use let or const instead         no-var
+  23:1    error  Line 23 exceeds the maximum line length of 80    max-len
+  23:84   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:24   error  A space is required after ','                    comma-spacing
+  25:39   error  A space is required after ','                    comma-spacing
+  25:44   error  A space is required after ','                    comma-spacing
+  25:52   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  27:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  28:1    error  More than 2 blank lines not allowed              no-multiple-empty-lines
+  28:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  29:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  30:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  31:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  32:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  33:1    error  Expected space or tab after '//' in comment      spaced-comment
+  33:23   error  Trailing spaces not allowed                      no-trailing-spaces
+  33:24   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  34:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  35:12   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  36:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  37:1    error  Line 37 exceeds the maximum line length of 80    max-len
+  37:94   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  38:51   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  39:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  40:1    error  Line 40 exceeds the maximum line length of 80    max-len
+  40:145  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  41:56   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  42:36   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  43:1    error  More than 2 blank lines not allowed              no-multiple-empty-lines
+  43:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  44:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  45:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  46:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  47:53   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  48:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  49:38   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  50:42   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  51:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  52:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  53:40   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  54:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  55:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  56:14   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  57:12   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  58:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  59:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  60:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  61:13   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  62:65   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  63:5    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  64:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  65:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  66:18   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  67:34   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  68:1    error  Line 68 exceeds the maximum line length of 80    max-len
+  68:122  error  Trailing spaces not allowed                      no-trailing-spaces
+  68:123  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  69:79   error  Trailing spaces not allowed                      no-trailing-spaces
+  69:80   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  70:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  71:20   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  72:61   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  73:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  74:67   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  75:78   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  76:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  77:34   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  78:48   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  79:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  80:57   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  81:5    error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongodb-connect.js
+   1:1   error  Expected space or tab after '//' in comment      spaced-comment
+   1:54  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:19  error  A space is required after ','                    comma-spacing
+   2:20  error  'ObjectID' is assigned a value but never used    no-unused-vars
+   2:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:1   error  Expected space or tab after '//' in comment      spaced-comment
+   7:72  error  Trailing spaces not allowed                      no-trailing-spaces
+   7:73  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:37  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:22  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:22  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:56  error  A space is required after ','                    comma-spacing
+  11:61  error  A space is required after ','                    comma-spacing
+  11:67  error  Block must not be padded by blank lines          padded-blocks
+  11:68  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:9   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:12  error  Missing space before opening brace               space-before-blocks
+  19:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:28  error  Strings must use singlequote                     quotes
+  20:58  error  A space is required after ','                    comma-spacing
+  20:64  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:6   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:17  error  Strings must use singlequote                     quotes
+  22:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  23:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:5   error  Expected space or tab after '//' in comment      spaced-comment
+  24:22  error  Trailing spaces not allowed                      no-trailing-spaces
+  24:23  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:36  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  27:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  28:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  29:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  30:59  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  31:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  32:65  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  33:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  34:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  35:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  36:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  37:19  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  38:38  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  39:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  40:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  41:70  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  42:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  43:67  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  44:59  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  45:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  46:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  47:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  48:4   error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongodb-delete.js
+   1:1   error  Expected space or tab after '//' in comment      spaced-comment
+   1:54  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:19  error  A space is required after ','                    comma-spacing
+   2:20  error  'ObjectID' is assigned a value but never used    no-unused-vars
+   2:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:56  error  A space is required after ','                    comma-spacing
+   5:61  error  A space is required after ','                    comma-spacing
+   5:67  error  Block must not be padded by blank lines          padded-blocks
+   5:68  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:1   error  Trailing spaces not allowed                      no-trailing-spaces
+   6:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:5   error  Expected space or tab after '//' in comment      spaced-comment
+   7:17  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:79  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:5   error  Expected space or tab after '//' in comment      spaced-comment
+  12:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:77  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  16:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:5   error  Expected space or tab after '//' in comment      spaced-comment
+  17:23  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:1   error  Line 18 exceeds the maximum line length of 80    max-len
+  18:83  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:1   error  Line 22 exceeds the maximum line length of 80    max-len
+  22:82  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:19  error  Strings must use singlequote                     quotes
+  26:51  error  Missing space before value for key 'name'        key-spacing
+  26:51  error  Strings must use singlequote                     quotes
+  26:79  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  27:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  28:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  29:5   error  Expected space or tab after '//' in comment      spaced-comment
+  29:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  30:4   error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongodb-find.js
+   1:1   error  Expected space or tab after '//' in comment      spaced-comment
+   1:54  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:19  error  A space is required after ','                    comma-spacing
+   2:20  error  'ObjectID' is assigned a value but never used    no-unused-vars
+   2:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:56  error  A space is required after ','                    comma-spacing
+   5:61  error  A space is required after ','                    comma-spacing
+   5:67  error  Block must not be padded by blank lines          padded-blocks
+   5:68  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:5   error  Expected space or tab after '//' in comment      spaced-comment
+   7:36  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:37  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:60  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:58  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:59  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:19  error  Strings must use singlequote                     quotes
+  23:39  error  Strings must use singlequote                     quotes
+  23:39  error  Missing space before value for key 'name'        key-spacing
+  23:81  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:21  error  Strings must use singlequote                     quotes
+  24:36  error  A space is required after ','                    comma-spacing
+  24:43  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:6   error  A space is required after ','                    comma-spacing
+  25:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:22  error  Strings must use singlequote                     quotes
+  26:40  error  A space is required after ','                    comma-spacing
+  26:46  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  27:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  28:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  29:5   error  Expected space or tab after '//' in comment      spaced-comment
+  29:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  30:4   error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongodb-update.js
+   1:19  error  A space is required after ','                        comma-spacing
+   1:51  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   3:56  error  A space is required after ','                        comma-spacing
+   3:61  error  A space is required after ','                        comma-spacing
+   3:68  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   4:1   error  Line 4 exceeds the maximum line length of 80         max-len
+   4:5   error  Expected space or tab after '//' in comment          spaced-comment
+   4:93  error  Trailing spaces not allowed                          no-trailing-spaces
+   4:94  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   5:5   error  Expected space or tab after '//' in comment          spaced-comment
+   5:92  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   6:5   error  Expected space or tab after '//' in comment          spaced-comment
+   6:50  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   7:5   error  Expected space or tab after '//' in comment          spaced-comment
+   7:71  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   8:1   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+   9:1   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  10:19  error  Strings must use singlequote                         quotes
+  10:46  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  11:13  error  Missing space before value for key '_id'             key-spacing
+  11:53  error  Missing trailing comma                               comma-dangle
+  11:53  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  12:6   error  A space is required after ','                        comma-spacing
+  12:8   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  13:14  error  Missing space before value for key '$set'            key-spacing
+  13:15  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  14:18  error  Strings must use singlequote                         quotes
+  14:18  error  Missing space before value for key 'name'            key-spacing
+  14:30  error  Missing trailing comma                               comma-dangle
+  14:30  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  15:11  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  16:14  error  Missing space before value for key '$inc'            key-spacing
+  16:15  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  17:17  error  Missing space before value for key 'age'             key-spacing
+  17:18  error  Missing trailing comma                               comma-dangle
+  17:18  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  18:10  error  Missing trailing comma                               comma-dangle
+  18:10  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  19:6   error  A space is required after ','                        comma-spacing
+  19:8   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  20:24  error  Missing space before value for key 'returnOriginal'  key-spacing
+  20:29  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  20:29  error  Missing trailing comma                               comma-dangle
+  21:6   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  22:23  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  23:29  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  24:8   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  25:1   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  26:1   error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  27:49  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  28:56  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  29:11  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  30:18  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  31:37  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  32:13  error  Trailing spaces not allowed                          no-trailing-spaces
+  32:21  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  33:11  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  34:32  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  35:27  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  36:32  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  37:10  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  38:16  error  Expected linebreaks to be 'LF' but found 'CRLF'      linebreak-style
+  39:4   error  Newline required at end of file but not found        eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongoose-practise.js
+   1:1   error  Unexpected var, use let or const instead          no-var
+   1:36  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   3:1   error  Expected space or tab after '//' in comment       spaced-comment
+   3:34  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   4:35  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   5:18  error  Strings must use singlequote                      quotes
+   5:56  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   6:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   7:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   8:1   error  Expected space or tab after '//' in comment       spaced-comment
+   8:26  error  Trailing spaces not allowed                       no-trailing-spaces
+   8:27  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   9:1   error  Expected space or tab after '//' in comment       spaced-comment
+   9:1   error  Line 9 exceeds the maximum line length of 80      max-len
+   9:92  error  Trailing spaces not allowed                       no-trailing-spaces
+   9:93  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  10:1   error  Unexpected var, use let or const instead          no-var
+  10:27  error  Strings must use singlequote                      quotes
+  10:33  error  A space is required after ','                     comma-spacing
+  10:35  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  11:10  error  Missing space before value for key 'text'         key-spacing
+  11:11  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  12:14  error  Missing space before value for key 'type'         key-spacing
+  12:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  13:18  error  Missing space before value for key 'required'     key-spacing
+  13:23  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  14:19  error  Missing space before value for key 'minlength'    key-spacing
+  14:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  15:14  error  Missing space before value for key 'trim'         key-spacing
+  15:18  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  15:18  error  Missing trailing comma                            comma-dangle
+  16:7   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  17:15  error  Missing space before value for key 'completed'    key-spacing
+  17:16  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  18:14  error  Missing space before value for key 'type'         key-spacing
+  18:22  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  19:17  error  Missing space before value for key 'default'      key-spacing
+  19:22  error  Missing trailing comma                            comma-dangle
+  19:22  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  20:7   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  21:17  error  Missing space before value for key 'completedAt'  key-spacing
+  21:18  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  22:14  error  Missing space before value for key 'type'         key-spacing
+  22:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  23:17  error  Missing space before value for key 'default'      key-spacing
+  23:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  23:21  error  Missing trailing comma                            comma-dangle
+  24:6   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  24:6   error  Missing trailing comma                            comma-dangle
+  25:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  26:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  27:1   error  Expected space or tab after '//' in comment       spaced-comment
+  27:13  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  28:1   error  Expected space or tab after '//' in comment       spaced-comment
+  28:45  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  29:1   error  Unexpected var, use let or const instead          no-var
+  29:27  error  Strings must use singlequote                      quotes
+  29:33  error  A space is required after ','                     comma-spacing
+  29:35  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  30:11  error  Missing space before value for key 'email'        key-spacing
+  30:12  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  31:14  error  Missing space before value for key 'type'         key-spacing
+  31:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  32:19  error  Missing space before value for key 'minlength'    key-spacing
+  32:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  33:17  error  Missing space before value for key 'require'      key-spacing
+  33:22  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  34:14  error  Missing space before value for key 'trim'         key-spacing
+  34:18  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  34:18  error  Missing trailing comma                            comma-dangle
+  35:6   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  35:6   error  Missing trailing comma                            comma-dangle
+  36:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  37:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  38:1   error  Expected space or tab after '//' in comment       spaced-comment
+  38:54  error  Trailing spaces not allowed                       no-trailing-spaces
+  38:55  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  39:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  40:1   error  Unexpected var, use let or const instead          no-var
+  40:24  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  41:6   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  42:14  error  Strings must use singlequote                      quotes
+  42:14  error  Missing space before value for key 'text'         key-spacing
+  42:27  error  Missing trailing comma                            comma-dangle
+  42:27  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  43:6   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  44:3   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  45:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  46:29  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  47:17  error  Strings must use singlequote                      quotes
+  47:35  error  A space is required after ','                     comma-spacing
+  47:41  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  48:2   error  A space is required after ','                     comma-spacing
+  48:11  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  49:17  error  Strings must use singlequote                      quotes
+  49:47  error  A space is required after ','                     comma-spacing
+  49:53  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  50:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  51:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  52:1   error  Expected space or tab after '//' in comment       spaced-comment
+  52:46  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  53:1   error  Unexpected var, use let or const instead          no-var
+  53:26  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  54:10  error  Missing space before value for key 'text'         key-spacing
+  54:24  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  54:24  error  Missing trailing comma                            comma-dangle
+  55:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  56:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  57:30  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  58:17  error  Strings must use singlequote                      quotes
+  58:35  error  A space is required after ','                     comma-spacing
+  58:41  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  59:2   error  A space is required after ','                     comma-spacing
+  59:11  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  60:17  error  Strings must use singlequote                      quotes
+  60:54  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  61:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  62:1   error  More than 2 blank lines not allowed               no-multiple-empty-lines
+  62:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  63:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  64:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  65:1   error  Unexpected var, use let or const instead          no-var
+  65:25  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  66:11  error  Missing space before value for key 'email'        key-spacing
+  66:11  error  Strings must use singlequote                      quotes
+  66:34  error  Missing trailing comma                            comma-dangle
+  66:34  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  67:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  68:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  69:29  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  70:35  error  A space is required after ','                     comma-spacing
+  70:45  error  A space is required after ','                     comma-spacing
+  70:50  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  71:2   error  A space is required after ','                     comma-spacing
+  71:11  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  72:17  error  Strings must use singlequote                      quotes
+  72:41  error  There should be no space before ','               comma-spacing
+  72:41  error  A space is required after ','                     comma-spacing
+  72:47  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  73:4   error  Newline required at end of file but not found     eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongoose-queries.js
+   1:8   error  'ObjectId' is assigned a value but never used    no-unused-vars
+   1:39  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:8   error  'mongoose' is assigned a value but never used    no-unused-vars
+   3:55  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:8   error  'Todo' is assigned a value but never used        no-unused-vars
+   4:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:1   error  Expected space or tab after '//' in comment      spaced-comment
+   7:43  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:39  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:28  error  Trailing spaces not allowed                      no-trailing-spaces
+  13:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:22  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:7   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:1   error  Line 23 exceeds the maximum line length of 80    max-len
+  23:94  error  Trailing spaces not allowed                      no-trailing-spaces
+  23:95  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  27:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  28:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  29:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  30:7   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  31:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  32:1   error  Expected space or tab after '//' in comment      spaced-comment
+  32:34  error  Trailing spaces not allowed                      no-trailing-spaces
+  32:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  33:37  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  34:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  35:50  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  36:9   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  37:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  38:39  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  39:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  40:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  41:1   error  Expected space or tab after '//' in comment      spaced-comment
+  41:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  42:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  43:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  44:15  error  Missing space before opening brace               space-before-blocks
+  44:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  45:56  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  46:6   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  47:23  error  A space is required after ','                    comma-spacing
+  47:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  48:2   error  A space is required after ','                    comma-spacing
+  48:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  49:42  error  A space is required after ','                    comma-spacing
+  49:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  50:36  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\playground\mongoose-remove.js
+   1:39   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   2:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   3:8    error  'mongoose' is assigned a value but never used                                                  no-unused-vars
+   3:55   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   4:52   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   5:8    error  'User' is assigned a value but never used                                                      no-unused-vars
+   5:51   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   6:1    error  More than 2 blank lines not allowed                                                            no-multiple-empty-lines
+   6:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   7:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   8:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+   9:1    error  Expected space or tab after '//' in comment                                                    spaced-comment
+   9:1    error  Line 9 exceeds the maximum line length of 80                                                   max-len
+   9:101  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  10:1    error  Expected space or tab after '//' in comment                                                    spaced-comment
+  10:1    error  Line 10 exceeds the maximum line length of 80                                                  max-len
+  10:157  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  11:1    error  Line 11 exceeds the maximum line length of 80                                                  max-len
+  11:1    error  Expected space or tab after '//' in comment                                                    spaced-comment
+  11:112  error  Trailing spaces not allowed                                                                    no-trailing-spaces
+  11:113  error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  12:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  12:1    error  More than 2 blank lines not allowed                                                            no-multiple-empty-lines
+  13:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  14:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  15:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  16:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  17:37   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  18:29   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  19:7    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  20:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  21:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  22:67   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  23:25   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  24:7    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  25:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  26:1    error  Expected space or tab after '//' in comment                                                    spaced-comment
+  26:5    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  27:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  28:65   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  29:25   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  30:7    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  31:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  32:1    error  Expected space or tab after '//' in comment                                                    spaced-comment
+  32:5    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  33:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  34:73   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  35:25   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  36:7    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  37:1    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  38:25   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  39:9    error  Missing space before value for key '_id'                                                       key-spacing
+  39:9    error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  39:45   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  39:45   error  Missing trailing comma                                                                         comma-dangle
+  40:17   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  41:22   error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+  42:4    error  Expected linebreaks to be 'LF' but found 'CRLF'                                                linebreak-style
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\config\config.js
+   1:1    error  Unexpected var, use let or const instead         no-var
+   1:49   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:24   error  There should be no space before ','              comma-spacing
+   2:24   error  A space is required after ','                    comma-spacing
+   2:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:58   error  Missing space before opening brace               space-before-blocks
+   5:59   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:5    error  Unexpected var, use let or const instead         no-var
+   6:43   error  Trailing spaces not allowed                      no-trailing-spaces
+   6:46   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:5    error  Unexpected var, use let or const instead         no-var
+   7:33   error  Expected space or tab after '//' in comment      spaced-comment
+   7:64   error  Trailing spaces not allowed                      no-trailing-spaces
+   7:67   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:44   error  Trailing spaces not allowed                      no-trailing-spaces
+   8:52   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:42   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:2    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:70   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:29   error  Trailing spaces not allowed                      no-trailing-spaces
+  15:33   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:75   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:29   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:1    error  Line 20 exceeds the maximum line length of 80    max-len
+  20:153  error  Trailing spaces not allowed                      no-trailing-spaces
+  20:154  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:38   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:51   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:115  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:5    error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\db\mongoose.js
+   1:1    error  Unexpected var, use let or const instead         no-var
+   1:36   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:1    error  Expected space or tab after '//' in comment      spaced-comment
+   3:34   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:1    error  Expected space or tab after '//' in comment      spaced-comment
+   5:61   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:1    error  Expected space or tab after '//' in comment      spaced-comment
+   7:102  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:69   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:75   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:66   error  Trailing spaces not allowed                      no-trailing-spaces
+  14:67   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:4    error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\middleware\authenticate.js
+   1:1    error  Unexpected var, use let or const instead         no-var
+   1:42   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:1    error  Expected space or tab after '//' in comment      spaced-comment
+   3:69   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:1    error  Unexpected var, use let or const instead         no-var
+   4:24   error  A space is required after ','                    comma-spacing
+   4:28   error  A space is required after ','                    comma-spacing
+   4:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:6    error  Expected space or tab after '//' in comment      spaced-comment
+   5:51   error  Trailing spaces not allowed                      no-trailing-spaces
+   5:53   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:5    error  Unexpected var, use let or const instead         no-var
+   6:38   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:5    error  Expected space or tab after '//' in comment      spaced-comment
+   7:34   error  Trailing spaces not allowed                      no-trailing-spaces
+   7:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:9    error  Expected space or tab after '//' in comment      spaced-comment
+   9:69   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:18   error  Missing space before opening brace               space-before-blocks
+  10:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:13   error  Expected space or tab after '//' in comment      spaced-comment
+  11:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:13   error  Expected space or tab after '//' in comment      spaced-comment
+  12:17   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  17:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:1    error  Line 18 exceeds the maximum line length of 80    max-len
+  18:15   error  Expected space or tab after '//' in comment      spaced-comment
+  18:162  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:1    error  Trailing spaces not allowed                      no-trailing-spaces
+  19:9    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:5    error  Block must not be padded by blank lines          padded-blocks
+  20:68   error  Trailing spaces not allowed                      no-trailing-spaces
+  20:69   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:9    error  Expected space or tab after '//' in comment      spaced-comment
+  21:40   error  Trailing spaces not allowed                      no-trailing-spaces
+  21:41   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  27:33   error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\models\todos.js
+   1:1   error  Unexpected var, use let or const instead          no-var
+   1:36  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   2:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   3:1   error  Expected space or tab after '//' in comment       spaced-comment
+   3:26  error  Trailing spaces not allowed                       no-trailing-spaces
+   3:27  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   4:1   error  Line 4 exceeds the maximum line length of 80      max-len
+   4:1   error  Expected space or tab after '//' in comment       spaced-comment
+   4:92  error  Trailing spaces not allowed                       no-trailing-spaces
+   4:93  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   5:1   error  Unexpected var, use let or const instead          no-var
+   5:27  error  Strings must use singlequote                      quotes
+   5:33  error  A space is required after ','                     comma-spacing
+   5:35  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   6:10  error  Missing space before value for key 'text'         key-spacing
+   6:11  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   7:14  error  Missing space before value for key 'type'         key-spacing
+   7:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   8:18  error  Missing space before value for key 'required'     key-spacing
+   8:23  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+   9:19  error  Missing space before value for key 'minlength'    key-spacing
+   9:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  10:14  error  Missing space before value for key 'trim'         key-spacing
+  10:18  error  Missing trailing comma                            comma-dangle
+  10:18  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  11:7   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  12:15  error  Missing space before value for key 'completed'    key-spacing
+  12:16  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  13:14  error  Missing space before value for key 'type'         key-spacing
+  13:22  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  14:17  error  Missing space before value for key 'default'      key-spacing
+  14:22  error  Missing trailing comma                            comma-dangle
+  14:22  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  15:7   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  16:17  error  Missing space before value for key 'completedAt'  key-spacing
+  16:18  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  17:14  error  Missing space before value for key 'type'         key-spacing
+  17:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  18:17  error  Missing space before value for key 'default'      key-spacing
+  18:21  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  18:21  error  Missing trailing comma                            comma-dangle
+  19:7   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  20:14  error  Missing space before value for key '_creator'     key-spacing
+  20:15  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  21:14  error  Missing space before value for key 'type'         key-spacing
+  21:45  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  22:18  error  Missing space before value for key 'required'     key-spacing
+  22:22  error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  22:22  error  Missing trailing comma                            comma-dangle
+  23:6   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  23:6   error  Missing trailing comma                            comma-dangle
+  24:4   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  25:1   error  Expected linebreaks to be 'LF' but found 'CRLF'   linebreak-style
+  26:24  error  Newline required at end of file but not found     eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\models\user.js
+    1:38   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    2:40   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    3:37   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    4:29   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    5:36   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    6:1    error  Expected space or tab after '//' in comment         spaced-comment
+    6:13   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    7:1    error  Expected space or tab after '//' in comment         spaced-comment
+    7:45   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    8:1    error  Expected space or tab after '//' in comment         spaced-comment
+    8:73   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+    9:1    error  Unexpected var, use let or const instead            no-var
+    9:39   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   10:11   error  Missing space before value for key 'email'          key-spacing
+   10:12   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   11:14   error  Missing space before value for key 'type'           key-spacing
+   11:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   12:19   error  Missing space before value for key 'minlength'      key-spacing
+   12:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   13:18   error  Missing space before value for key 'required'       key-spacing
+   13:23   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   14:14   error  Missing space before value for key 'trim'           key-spacing
+   14:19   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   15:16   error  Missing space before value for key 'unique'         key-spacing
+   15:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   16:9    error  Expected space or tab after '//' in comment         spaced-comment
+   16:37   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   17:18   error  Missing space before value for key 'validate'       key-spacing
+   17:19   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   18:23   error  Missing space before value for key 'validator'      key-spacing
+   18:41   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   19:21   error  Missing space before value for key 'message'        key-spacing
+   19:53   error  Missing trailing comma                              comma-dangle
+   19:53   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   20:10   error  Missing trailing comma                              comma-dangle
+   20:10   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   21:7    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   22:14   error  Missing space before value for key 'password'       key-spacing
+   22:15   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   23:14   error  Missing space before value for key 'type'           key-spacing
+   23:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   24:19   error  Missing space before value for key 'minlength'      key-spacing
+   24:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   25:18   error  Missing space before value for key 'required'       key-spacing
+   25:22   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   25:22   error  Missing trailing comma                              comma-dangle
+   26:7    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   27:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   28:5    error  Expected space or tab after '/*' in comment         spaced-comment
+   28:68   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   29:12   error  Missing space before value for key 'tokens'         key-spacing
+   29:14   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   30:16   error  Missing space before value for key 'access'         key-spacing
+   30:17   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   31:18   error  Missing space before value for key 'type'           key-spacing
+   31:25   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   32:22   error  Missing space before value for key 'required'       key-spacing
+   32:26   error  Missing trailing comma                              comma-dangle
+   32:26   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   33:11   error  Trailing spaces not allowed                         no-trailing-spaces
+   33:12   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   34:15   error  Missing space before value for key 'token'          key-spacing
+   34:16   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   35:18   error  Missing space before value for key 'type'           key-spacing
+   35:25   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   36:22   error  Missing space before value for key 'required'       key-spacing
+   36:26   error  Missing trailing comma                              comma-dangle
+   36:26   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   37:10   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   37:10   error  Missing trailing comma                              comma-dangle
+   38:7    error  Missing trailing comma                              comma-dangle
+   38:7    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   39:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   40:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   41:1    error  Expected space or tab after '//' in comment         spaced-comment
+   41:1    error  Line 41 exceeds the maximum line length of 80       max-len
+   41:87   error  Trailing spaces not allowed                         no-trailing-spaces
+   41:88   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   42:39   error  Missing space before opening brace                  space-before-blocks
+   42:40   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   43:5    error  Unexpected var, use let or const instead            no-var
+   43:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   44:5    error  Unexpected var, use let or const instead            no-var
+   44:38   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   45:29   error  A space is required after ','                       comma-spacing
+   45:36   error  A space is required after ','                       comma-spacing
+   45:47   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   46:3    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   47:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   48:19   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   49:20   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   50:56   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   51:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   52:1    error  Line 52 exceeds the maximum line length of 80       max-len
+   52:1    error  Expected space or tab after '//' in comment         spaced-comment
+   52:115  error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   53:50   error  Missing space before opening brace                  space-before-blocks
+   53:50   error  Block must not be padded by blank lines             padded-blocks
+   53:51   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   54:1    error  Trailing spaces not allowed                         no-trailing-spaces
+   54:5    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   55:5    error  Unexpected var, use let or const instead            no-var
+   55:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   56:5    error  Unexpected var, use let or const instead            no-var
+   56:24   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   57:5    error  Expected space or tab after '//' in comment         spaced-comment
+   57:34   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   58:1    error  Line 58 exceeds the maximum line length of 80       max-len
+   58:5    error  Unexpected var, use let or const instead            no-var
+   58:31   error  Missing space before value for key '_id'            key-spacing
+   58:53   error  A space is required after ','                       comma-spacing
+   58:61   error  A space is required after ','                       comma-spacing
+   58:98   error  Trailing spaces not allowed                         no-trailing-spaces
+   58:101  error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   59:1    error  Line 59 exceeds the maximum line length of 80       max-len
+   59:5    error  Expected space or tab after '//' in comment         spaced-comment
+   59:87   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   60:29   error  A space is required after ','                       comma-spacing
+   60:38   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   61:1    error  Trailing spaces not allowed                         no-trailing-spaces
+   61:5    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   62:5    error  Expected space or tab after '//' in comment         spaced-comment
+   62:64   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   63:34   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   64:22   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   65:8    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   66:3    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   67:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   68:1    error  Expected space or tab after '//' in comment         spaced-comment
+   68:39   error  Trailing spaces not allowed                         no-trailing-spaces
+   68:40   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   69:1    error  Expected space or tab after '//' in comment         spaced-comment
+   69:30   error  Trailing spaces not allowed                         no-trailing-spaces
+   69:31   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   70:47   error  Missing space before opening brace                  space-before-blocks
+   70:48   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   71:5    error  Unexpected var, use let or const instead            no-var
+   71:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   72:1    error  Line 72 exceeds the maximum line length of 80       max-len
+   72:5    error  Expected space or tab after '//' in comment         spaced-comment
+   72:103  error  Trailing spaces not allowed                         no-trailing-spaces
+   72:105  error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   73:1    error  Line 73 exceeds the maximum line length of 80       max-len
+   73:5    error  Expected space or tab after '//' in comment         spaced-comment
+   73:103  error  Trailing spaces not allowed                         no-trailing-spaces
+   73:104  error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   74:25   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   75:15   error  Missing space before value for key '$pull'          key-spacing
+   75:16   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   76:20   error  Missing space before value for key 'tokens'         key-spacing
+   76:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   77:23   error  Missing space before value for key 'token'          key-spacing
+   77:28   error  Missing trailing comma                              comma-dangle
+   77:28   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   78:14   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   78:14   error  Missing trailing comma                              comma-dangle
+   79:10   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   79:10   error  Missing trailing comma                              comma-dangle
+   80:8    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   81:3    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   82:1    error  More than 2 blank lines not allowed                 no-multiple-empty-lines
+   82:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   83:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   84:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   85:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   86:16   error  Trailing spaces not allowed                         no-trailing-spaces
+   86:17   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   87:19   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   88:65   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   89:3    error  Trailing spaces not allowed                         no-trailing-spaces
+   89:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   90:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   91:1    error  Expected space or tab after '//' in comment         spaced-comment
+   91:25   error  Trailing spaces not allowed                         no-trailing-spaces
+   91:26   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   92:49   error  Missing space before opening brace                  space-before-blocks
+   92:50   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   93:5    error  Expected space or tab after '//' in comment         spaced-comment
+   93:59   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   94:5    error  Unexpected var, use let or const instead            no-var
+   94:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   95:5    error  Unexpected var, use let or const instead            no-var
+   95:17   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   96:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   97:9    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   98:35   error  A space is required after ','                       comma-spacing
+   98:61   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+   99:16   error  Missing space before opening brace                  space-before-blocks
+   99:17   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  100:50   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  101:25   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  102:15   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  103:9    error  Expected space or tab after '//' in comment         spaced-comment
+  103:13   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  104:9    error  Expected space or tab after '//' in comment         spaced-comment
+  104:46   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  105:9    error  Expected space or tab after '//' in comment         spaced-comment
+  105:13   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  106:36   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  107:6    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  108:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  109:5    error  Expected space or tab after '//' in comment         spaced-comment
+  109:68   error  Trailing spaces not allowed                         no-trailing-spaces
+  109:69   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  110:1    error  Line 110 exceeds the maximum line length of 80      max-len
+  110:5    error  Expected space or tab after '//' in comment         spaced-comment
+  110:82   error  Trailing spaces not allowed                         no-trailing-spaces
+  110:83   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  111:26   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  112:9    error  Inconsistently quoted property '_id' found          quote-props
+  112:13   error  Missing space before value for key '_id'            key-spacing
+  112:25   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  113:9    error  Expected space or tab after '//' in comment         spaced-comment
+  113:58   error  Trailing spaces not allowed                         no-trailing-spaces
+  113:59   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  114:24   error  Missing space before value for key 'tokens.token'   key-spacing
+  114:30   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  115:25   error  Missing space before value for key 'tokens.access'  key-spacing
+  115:31   error  Missing trailing comma                              comma-dangle
+  115:31   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  116:8    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  117:3    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  118:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  119:1    error  Expected space or tab after '//' in comment         spaced-comment
+  119:56   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  120:1    error  Expected space or tab after '//' in comment         spaced-comment
+  120:60   error  Trailing spaces not allowed                         no-trailing-spaces
+  120:61   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  121:22   error  A space is required after ','                       comma-spacing
+  121:37   error  Missing space before opening brace                  space-before-blocks
+  121:38   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  122:5    error  Unexpected var, use let or const instead            no-var
+  122:16   error  Unexpected 'this'                                   no-invalid-this
+  122:21   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  123:1    error  Line 123 exceeds the maximum line length of 80      max-len
+  123:5    error  Expected space or tab after '//' in comment         spaced-comment
+  123:187  error  Trailing spaces not allowed                         no-trailing-spaces
+  123:188  error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  124:36   error  Missing space before opening brace                  space-before-blocks
+  124:37   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  125:26   error  A space is required after ','                       comma-spacing
+  125:31   error  A space is required after ','                       comma-spacing
+  125:40   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  126:38   error  A space is required after ','                       comma-spacing
+  126:43   error  A space is required after ','                       comma-spacing
+  126:48   error  A space is required after ','                       comma-spacing
+  126:57   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  127:38   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  128:24   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  129:16   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  130:12   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  131:11   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  132:16   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  133:6    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  134:1    error  Trailing spaces not allowed                         no-trailing-spaces
+  134:5    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  135:1    error  Block must not be padded by blank lines             padded-blocks
+  135:4    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  136:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  137:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  138:54   error  A space is required after ','                       comma-spacing
+  138:64   error  Missing space before opening brace                  space-before-blocks
+  138:64   error  Block must not be padded by blank lines             padded-blocks
+  138:65   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  139:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  140:5    error  Expected space or tab after '//' in comment         spaced-comment
+  140:69   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  141:48   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  142:9    error  Expected space or tab after '//' in comment         spaced-comment
+  142:57   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  143:18   error  Missing space before opening brace                  space-before-blocks
+  143:19   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  144:37   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  145:10   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  146:9    error  Expected space or tab after '//' in comment         spaced-comment
+  146:31   error  Trailing spaces not allowed                         no-trailing-spaces
+  146:32   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  147:1    error  Line 147 exceeds the maximum line length of 80      max-len
+  147:9    error  Expected space or tab after '//' in comment         spaced-comment
+  147:152  error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  148:36   error  A space is required after ','                       comma-spacing
+  148:47   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  149:13   error  Expected space or tab after '//' in comment         spaced-comment
+  149:71   error  Trailing spaces not allowed                         no-trailing-spaces
+  149:72   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  150:1    error  Line 150 exceeds the maximum line length of 80      max-len
+  150:36   error  A space is required after ','                       comma-spacing
+  150:50   error  A space is required after ','                       comma-spacing
+  150:55   error  A space is required after ','                       comma-spacing
+  150:63   error  Trailing spaces not allowed                         no-trailing-spaces
+  150:85   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  151:24   error  Missing space before opening brace                  space-before-blocks
+  151:25   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  152:34   error  Trailing spaces not allowed                         no-trailing-spaces
+  152:53   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  153:23   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  154:30   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  155:18   error  Trailing spaces not allowed                         no-trailing-spaces
+  155:34   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  156:16   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  157:12   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  158:8    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  159:3    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  160:1    error  More than 2 blank lines not allowed                 no-multiple-empty-lines
+  160:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  161:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  162:1    error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  163:1    error  Unexpected var, use let or const instead            no-var
+  163:33   error  A space is required after ','                       comma-spacing
+  163:46   error  Expected linebreaks to be 'LF' but found 'CRLF'     linebreak-style
+  164:24   error  Newline required at end of file but not found       eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\server.js
+    1:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    2:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    3:29   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    4:36   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    5:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    6:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    7:1    error  Expected space or tab after '//' in comment      spaced-comment
+    7:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    8:1    error  Expected space or tab after '//' in comment      spaced-comment
+    8:57   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    9:1    error  Unexpected var, use let or const instead         no-var
+    9:6    error  'mongoose' is assigned a value but never used    no-unused-vars
+    9:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   10:1    error  Unexpected var, use let or const instead         no-var
+   10:40   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   11:1    error  Unexpected var, use let or const instead         no-var
+   11:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   12:1    error  Unexpected var, use let or const instead         no-var
+   12:59   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   13:1    error  Expected space or tab after '//' in comment      spaced-comment
+   13:57   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   14:1    error  Unexpected var, use let or const instead         no-var
+   14:21   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   15:1    error  Expected space or tab after '//' in comment      spaced-comment
+   15:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   16:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   17:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   18:1    error  Expected space or tab after '//' in comment      spaced-comment
+   18:42   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   19:13   error  Strings must use singlequote                     quotes
+   19:26   error  A space is required after ','                    comma-spacing
+   19:26   error  There should be no space before ','              comma-spacing
+   19:45   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   20:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   21:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   22:1    error  Expected space or tab after '//' in comment      spaced-comment
+   22:1    error  Line 22 exceeds the maximum line length of 80    max-len
+   22:91   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   23:18   error  A space is required after ','                    comma-spacing
+   23:31   error  A space is required after ','                    comma-spacing
+   23:36   error  A space is required after ','                    comma-spacing
+   23:44   error  Trailing spaces not allowed                      no-trailing-spaces
+   23:47   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   24:5    error  Unexpected var, use let or const instead         no-var
+   24:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   25:14   error  Missing space before value for key 'text'        key-spacing
+   25:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   26:18   error  Missing space before value for key '_creator'    key-spacing
+   26:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   26:30   error  Missing trailing comma                           comma-dangle
+   27:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   28:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   29:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   30:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   31:6    error  A space is required after ','                    comma-spacing
+   31:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   32:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   33:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   34:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   35:1    error  Block must not be padded by blank lines          padded-blocks
+   35:4    error  Trailing spaces not allowed                      no-trailing-spaces
+   35:5    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   36:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   37:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   38:9    error  Strings must use singlequote                     quotes
+   38:17   error  A space is required after ','                    comma-spacing
+   38:30   error  A space is required after ','                    comma-spacing
+   38:35   error  A space is required after ','                    comma-spacing
+   38:42   error  Block must not be padded by blank lines          padded-blocks
+   38:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   39:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   40:16   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   41:18   error  Missing space before value for key '_creator'    key-spacing
+   41:30   error  Missing trailing comma                           comma-dangle
+   41:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   42:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   43:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   44:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   45:17   error  Missing space before value for key 'process'     key-spacing
+   45:17   error  Strings must use singlequote                     quotes
+   45:24   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   46:20   error  Missing space before value for key 'customCode'  key-spacing
+   46:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   46:23   error  Missing trailing comma                           comma-dangle
+   47:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   48:6    error  A space is required after ','                    comma-spacing
+   48:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   49:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   50:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   51:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   52:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   53:1    error  Expected space or tab after '//' in comment      spaced-comment
+   53:20   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   54:21   error  A space is required after ','                    comma-spacing
+   54:34   error  A space is required after ','                    comma-spacing
+   54:39   error  A space is required after ','                    comma-spacing
+   54:47   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   55:5    error  Expected space or tab after '//' in comment      spaced-comment
+   55:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   56:5    error  Unexpected var, use let or const instead         no-var
+   56:29   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   57:32   error  Missing space before opening brace               space-before-blocks
+   57:33   error  Trailing spaces not allowed                      no-trailing-spaces
+   57:41   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   58:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   59:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   60:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   61:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   62:13   error  Missing space before value for key '_id'         key-spacing
+   62:17   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   63:18   error  Missing space before value for key '_creator'    key-spacing
+   63:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   63:30   error  Missing trailing comma                           comma-dangle
+   64:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   65:18   error  Missing space before opening brace               space-before-blocks
+   65:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   66:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   67:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   68:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   69:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   70:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   71:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   72:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   73:1    error  Block must not be padded by blank lines          padded-blocks
+   73:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   74:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   75:1    error  Expected space or tab after '//' in comment      spaced-comment
+   75:18   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   76:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   77:71   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   78:69   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   79:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   80:74   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   81:32   error  Trailing spaces not allowed                      no-trailing-spaces
+   81:33   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   82:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   83:20   error  A space is required after ','                    comma-spacing
+   83:33   error  A space is required after ','                    comma-spacing
+   83:38   error  A space is required after ','                    comma-spacing
+   83:45   error  Block must not be padded by blank lines          padded-blocks
+   83:46   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   84:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   85:5    error  Expected space or tab after '//' in comment      spaced-comment
+   85:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   86:18   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   87:18   error  Missing space before value for key '_creator'    key-spacing
+   87:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   87:30   error  Missing trailing comma                           comma-dangle
+   88:24   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   89:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   90:13   error  Strings must use singlequote                     quotes
+   90:22   error  Missing space before value for key 'result'      key-spacing
+   90:81   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   90:81   error  Missing trailing comma                           comma-dangle
+   91:12   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   92:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   93:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   94:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   95:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   96:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   97:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   98:1    error  Expected space or tab after '//' in comment      spaced-comment
+   98:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   99:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  100:23   error  A space is required after ','                    comma-spacing
+  100:36   error  A space is required after ','                    comma-spacing
+  100:41   error  A space is required after ','                    comma-spacing
+  100:49   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  101:5    error  Unexpected var, use let or const instead         no-var
+  101:29   error  Trailing spaces not allowed                      no-trailing-spaces
+  101:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  102:26   error  Missing space before opening brace               space-before-blocks
+  102:27   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  103:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  104:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  105:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  106:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  107:9    error  Extra space after key '_id'                      key-spacing
+  107:14   error  Missing space before value for key '_id'         key-spacing
+  107:18   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  108:18   error  Missing space before value for key '_creator'    key-spacing
+  108:30   error  Missing trailing comma                           comma-dangle
+  108:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  109:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  110:18   error  Missing space before opening brace               space-before-blocks
+  110:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  111:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  112:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  113:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  114:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  115:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  116:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  117:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  118:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  119:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  120:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  121:1    error  Expected space or tab after '//' in comment      spaced-comment
+  121:9    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  122:22   error  A space is required after ','                    comma-spacing
+  122:35   error  A space is required after ','                    comma-spacing
+  122:40   error  A space is required after ','                    comma-spacing
+  122:48   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  123:5    error  Unexpected var, use let or const instead         no-var
+  123:29   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  124:31   error  Missing space before opening brace               space-before-blocks
+  124:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  125:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  126:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  127:5    error  Expected space or tab after '//' in comment      spaced-comment
+  127:24   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  128:1    error  Line 128 exceeds the maximum line length of 80   max-len
+  128:5    error  Expected space or tab after '//' in comment      spaced-comment
+  128:94   error  Trailing spaces not allowed                      no-trailing-spaces
+  128:95   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  129:5    error  Unexpected var, use let or const instead         no-var
+  129:31   error  A space is required after ','                    comma-spacing
+  129:39   error  A space is required after ','                    comma-spacing
+  129:54   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  130:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  131:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  132:1    error  Line 132 exceeds the maximum line length of 80   max-len
+  132:5    error  Expected space or tab after '//' in comment      spaced-comment
+  132:139  error  Trailing spaces not allowed                      no-trailing-spaces
+  132:140  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  133:54   error  Missing space before opening brace               space-before-blocks
+  133:55   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  134:9    error  Expected space or tab after '//' in comment      spaced-comment
+  134:52   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  135:49   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  136:11   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  137:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  138:33   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  139:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  140:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  141:5    error  Expected space or tab after '//' in comment      spaced-comment
+  141:31   error  Trailing spaces not allowed                      no-trailing-spaces
+  141:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  142:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  143:13   error  Missing space before value for key '_id'         key-spacing
+  143:17   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  144:18   error  Missing space before value for key '_creator'    key-spacing
+  144:30   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  144:30   error  Missing trailing comma                           comma-dangle
+  145:6    error  A space is required after ','                    comma-spacing
+  145:13   error  Missing space before value for key '$set'        key-spacing
+  145:18   error  A space is required after ','                    comma-spacing
+  145:24   error  Missing space before value for key 'new'         key-spacing
+  145:45   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  146:18   error  Missing space before opening brace               space-before-blocks
+  146:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  147:43   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  148:10   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  149:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  150:6    error  A space is required after ','                    comma-spacing
+  150:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  151:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  152:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  153:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  154:1    error  Block must not be padded by blank lines          padded-blocks
+  154:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  155:1    error  More than 2 blank lines not allowed              no-multiple-empty-lines
+  155:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  156:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  157:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  158:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  159:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  160:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  161:1    error  Expected space or tab after '/**' in comment     spaced-comment
+  161:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  162:18   error  A space is required after ','                    comma-spacing
+  162:23   error  A space is required after ','                    comma-spacing
+  162:30   error  Block must not be padded by blank lines          padded-blocks
+  162:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  163:1    error  Trailing spaces not allowed                      no-trailing-spaces
+  163:5    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  164:5    error  Unexpected var, use let or const instead         no-var
+  164:31   error  A space is required after ','                    comma-spacing
+  164:40   error  A space is required after ','                    comma-spacing
+  164:54   error  Expected space or tab after '//' in comment      spaced-comment
+  164:79   error  Trailing spaces not allowed                      no-trailing-spaces
+  164:80   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  165:1    error  Line 165 exceeds the maximum line length of 80   max-len
+  165:5    error  Expected space or tab after '//' in comment      spaced-comment
+  165:84   error  Trailing spaces not allowed                      no-trailing-spaces
+  165:85   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  166:5    error  Unexpected var, use let or const instead         no-var
+  166:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  167:1    error  Trailing spaces not allowed                      no-trailing-spaces
+  167:5    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  168:5    error  Expected space or tab after '//' in comment      spaced-comment
+  168:59   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  169:5    error  Expected space or tab after '//' in comment      spaced-comment
+  169:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  170:5    error  Expected space or tab after '//' in comment      spaced-comment
+  170:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  171:5    error  Expected space or tab after '//' in comment      spaced-comment
+  171:29   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  172:1    error  Trailing spaces not allowed                      no-trailing-spaces
+  172:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  173:27   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  174:41   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  175:9    error  Expected space or tab after '//' in comment      spaced-comment
+  175:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  176:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  177:28   error  A space is required after ','                    comma-spacing
+  177:47   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  178:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  179:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  180:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  181:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  182:1    error  Block must not be padded by blank lines          padded-blocks
+  182:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  183:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  184:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  185:1    error  Expected space or tab after '//' in comment      spaced-comment
+  185:16   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  186:20   error  A space is required after ','                    comma-spacing
+  186:33   error  A space is required after ','                    comma-spacing
+  186:38   error  A space is required after ','                    comma-spacing
+  186:46   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  187:24   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  188:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  189:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  190:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  191:1    error  Expected space or tab after '//' in comment      spaced-comment
+  191:15   error  Trailing spaces not allowed                      no-trailing-spaces
+  191:16   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  192:24   error  A space is required after ','                    comma-spacing
+  192:29   error  A space is required after ','                    comma-spacing
+  192:36   error  Block must not be padded by blank lines          padded-blocks
+  192:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  193:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  194:5    error  Unexpected var, use let or const instead         no-var
+  194:31   error  A space is required after ','                    comma-spacing
+  194:40   error  A space is required after ','                    comma-spacing
+  194:54   error  Trailing spaces not allowed                      no-trailing-spaces
+  194:62   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  195:38   error  A space is required after ','                    comma-spacing
+  195:68   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  196:9    error  Expected space or tab after '//' in comment      spaced-comment
+  196:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  197:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  198:56   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  199:32   error  A space is required after ','                    comma-spacing
+  199:51   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  200:12   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  201:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  202:5    error  Block must not be padded by blank lines          padded-blocks
+  202:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  203:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  204:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  205:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  206:1    error  Block must not be padded by blank lines          padded-blocks
+  206:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  207:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  208:1    error  Expected space or tab after '//' in comment      spaced-comment
+  208:1    error  Line 208 exceeds the maximum line length of 80   max-len
+  208:124  error  Trailing spaces not allowed                      no-trailing-spaces
+  208:125  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  209:29   error  A space is required after ','                    comma-spacing
+  209:42   error  A space is required after ','                    comma-spacing
+  209:47   error  A space is required after ','                    comma-spacing
+  209:54   error  Block must not be padded by blank lines          padded-blocks
+  209:55   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  210:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  211:5    error  Expected space or tab after '//' in comment      spaced-comment
+  211:79   error  Trailing spaces not allowed                      no-trailing-spaces
+  211:80   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  212:1    error  Line 212 exceeds the maximum line length of 80   max-len
+  212:5    error  Expected space or tab after '//' in comment      spaced-comment
+  212:87   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  213:47   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  214:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  215:6    error  A space is required after ','                    comma-spacing
+  215:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  216:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  217:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  218:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  219:1    error  More than 2 blank lines not allowed              no-multiple-empty-lines
+  219:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  220:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  221:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  222:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  223:16   error  A space is required after ','                    comma-spacing
+  223:22   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  224:49   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  225:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  226:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  227:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  228:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\test\seed\seed.js
+   1:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   2:37   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   3:48   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   4:47   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   5:1    error  Expected space or tab after '//' in comment      spaced-comment
+   5:55   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   6:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   7:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   8:1    error  Unexpected var, use let or const instead         no-var
+   8:16   error  Multiple spaces found before '='                 no-multi-spaces
+   8:33   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   9:1    error  Unexpected var, use let or const instead         no-var
+   9:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  10:16   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  11:13   error  Missing space before value for key '_id'         key-spacing
+  11:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  12:15   error  Missing space before value for key 'email'       key-spacing
+  12:36   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  13:18   error  Missing space before value for key 'password'    key-spacing
+  13:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  14:16   error  Missing space before value for key 'tokens'      key-spacing
+  14:18   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  15:20   error  Missing space before value for key 'access'      key-spacing
+  15:27   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:1    error  Line 16 exceeds the maximum line length of 80    max-len
+  16:19   error  Missing space before value for key 'token'       key-spacing
+  16:33   error  Missing space before value for key '_id'         key-spacing
+  16:42   error  A space is required after ','                    comma-spacing
+  16:50   error  Missing space before value for key 'access'      key-spacing
+  16:57   error  A space is required after ','                    comma-spacing
+  16:93   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  16:93   error  Missing trailing comma                           comma-dangle
+  17:11   error  Missing trailing comma                           comma-dangle
+  17:11   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  18:7    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  19:6    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  20:13   error  Missing space before value for key '_id'         key-spacing
+  20:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  21:15   error  Missing space before value for key 'email'       key-spacing
+  21:36   error  Trailing spaces not allowed                      no-trailing-spaces
+  21:38   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  22:18   error  Missing space before value for key 'password'    key-spacing
+  22:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  23:16   error  Missing space before value for key 'tokens'      key-spacing
+  23:18   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  24:20   error  Missing space before value for key 'access'      key-spacing
+  24:27   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  25:1    error  Line 25 exceeds the maximum line length of 80    max-len
+  25:19   error  Missing space before value for key 'token'       key-spacing
+  25:33   error  Missing space before value for key '_id'         key-spacing
+  25:42   error  A space is required after ','                    comma-spacing
+  25:50   error  Missing space before value for key 'access'      key-spacing
+  25:57   error  A space is required after ','                    comma-spacing
+  25:93   error  Missing trailing comma                           comma-dangle
+  25:93   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:11   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  26:11   error  Missing trailing comma                           comma-dangle
+  27:8    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  28:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  29:17   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  30:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  31:27   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  32:12   error  Missing space before value for key '_creator'    key-spacing
+  32:21   error  Missing trailing comma                           comma-dangle
+  32:21   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  33:5    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  34:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  35:28   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  36:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  37:20   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  38:12   error  Missing space before value for key '_creator'    key-spacing
+  38:21   error  Missing trailing comma                           comma-dangle
+  38:21   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  39:2    error  A space is required after ','                    comma-spacing
+  39:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  40:23   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  41:33   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  42:19   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  43:20   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  44:12   error  Missing space before value for key '_creator'    key-spacing
+  44:21   error  Missing trailing comma                           comma-dangle
+  44:21   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  45:4    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  46:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  47:1    error  Expected space or tab after '//' in comment      spaced-comment
+  47:15   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  48:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  49:1    error  Line 49 exceeds the maximum line length of 80    max-len
+  49:5    error  Expected space or tab after '//' in comment      spaced-comment
+  49:117  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  50:5    error  Expected space or tab after '//' in comment      spaced-comment
+  50:40   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  51:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  52:35   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  53:39   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  54:26   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  55:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  56:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  57:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  58:32   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  59:1    error  Line 59 exceeds the maximum line length of 80    max-len
+  59:5    error  Expected space or tab after '//' in comment      spaced-comment
+  59:89   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  60:31   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  61:10   error  Unexpected var, use let or const instead         no-var
+  61:50   error  Expected space or tab after '//' in comment      spaced-comment
+  61:61   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  62:10   error  Unexpected var, use let or const instead         no-var
+  62:50   error  Expected space or tab after '//' in comment      spaced-comment
+  62:61   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  63:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  64:37   error  A space is required after ','                    comma-spacing
+  64:48   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  65:25   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  66:3    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  67:23   error  A space is required after ','                    comma-spacing
+  67:37   error  A space is required after ','                    comma-spacing
+  67:43   error  A space is required after ','                    comma-spacing
+  67:59   error  Newline required at end of file but not found    eol-last
+
+D:\Vittal\Code\NODEJS\UDemmy\database-restapi\server\test\server.test.js
+    1:34  error  Expected space or tab after '//' in comment      spaced-comment
+    1:53  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    2:38  error  Expected space or tab after '//' in comment      spaced-comment
+    2:62  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    3:39  error  Trailing spaces not allowed                      no-trailing-spaces
+    3:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    4:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    5:38  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    6:45  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    7:44  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    8:13  error  A space is required after ','                    comma-spacing
+    8:27  error  A space is required after ','                    comma-spacing
+    8:33  error  A space is required after ','                    comma-spacing
+    8:74  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    9:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+    9:1   error  More than 2 blank lines not allowed              no-multiple-empty-lines
+   10:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   11:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   12:1   error  Expected space or tab after '//' in comment      spaced-comment
+   12:58  error  Trailing spaces not allowed                      no-trailing-spaces
+   12:59  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   13:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   14:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   15:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   16:1   error  Expected space or tab after '//' in comment      spaced-comment
+   16:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   17:29  error  Block must not be padded by blank lines          padded-blocks
+   17:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   18:1   error  Trailing spaces not allowed                      no-trailing-spaces
+   18:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   19:8   error  Strings must use singlequote                     quotes
+   19:34  error  A space is required after ','                    comma-spacing
+   19:44  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   20:9   error  Unexpected var, use let or const instead         no-var
+   20:19  error  Strings must use singlequote                     quotes
+   20:36  error  Trailing spaces not allowed                      no-trailing-spaces
+   20:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   21:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   22:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   23:22  error  A space is required after ','                    comma-spacing
+   23:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   24:22  error  Expected space or tab after '//' in comment      spaced-comment
+   24:75  error  Trailing spaces not allowed                      no-trailing-spaces
+   24:76  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   25:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   26:9   error  Expected space or tab after '//' in comment      spaced-comment
+   26:44  error  Trailing spaces not allowed                      no-trailing-spaces
+   26:45  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   27:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   28:46  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   29:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   30:18  error  A space is required after ','                    comma-spacing
+   30:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   31:20  error  Missing space before opening brace               space-before-blocks
+   31:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   32:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   33:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   34:1   error  Trailing spaces not allowed                      no-trailing-spaces
+   34:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   35:1   error  Line 35 exceeds the maximum line length of 80    max-len
+   35:13  error  Expected space or tab after '//' in comment      spaced-comment
+   35:96  error  Trailing spaces not allowed                      no-trailing-spaces
+   35:97  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   36:46  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   37:46  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   38:50  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   39:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   40:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   41:13  error  Block must not be padded by blank lines          padded-blocks
+   41:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   42:12  error  Trailing spaces not allowed                      no-trailing-spaces
+   42:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   43:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   44:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   45:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   46:5   error  Expected space or tab after '//' in comment      spaced-comment
+   46:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   47:8   error  Strings must use singlequote                     quotes
+   47:59  error  A space is required after ','                    comma-spacing
+   47:69  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   48:9   error  Expected space or tab after '//' in comment      spaced-comment
+   48:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   49:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   50:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   51:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   52:18  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   53:22  error  A space is required after ','                    comma-spacing
+   53:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   54:21  error  Trailing spaces not allowed                      no-trailing-spaces
+   54:36  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   55:18  error  A space is required after ','                    comma-spacing
+   55:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   56:20  error  Missing space before opening brace               space-before-blocks
+   56:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   57:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   58:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   59:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   60:13  error  Expected space or tab after '//' in comment      spaced-comment
+   60:71  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   61:41  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   62:45  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   63:17  error  Expected space or tab after '//' in comment      spaced-comment
+   63:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   64:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   65:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   66:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   67:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   68:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   69:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   70:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   71:10  error  Strings must use singlequote                     quotes
+   71:22  error  A space is required after ','                    comma-spacing
+   71:27  error  Block must not be padded by blank lines          padded-blocks
+   71:28  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   72:1   error  Trailing spaces not allowed                      no-trailing-spaces
+   72:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   73:8   error  Strings must use singlequote                     quotes
+   73:32  error  A space is required after ','                    comma-spacing
+   73:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   74:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   75:23  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   76:22  error  A space is required after ','                    comma-spacing
+   76:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   77:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   78:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   79:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   80:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   81:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   82:8   error  Trailing spaces not allowed                      no-trailing-spaces
+   82:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   83:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   84:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   85:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   86:10  error  Strings must use singlequote                     quotes
+   86:26  error  A space is required after ','                    comma-spacing
+   86:32  error  Trailing spaces not allowed                      no-trailing-spaces
+   86:37  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   87:8   error  Strings must use singlequote                     quotes
+   87:36  error  A space is required after ','                    comma-spacing
+   87:46  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   88:9   error  Unexpected var, use let or const instead         no-var
+   88:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   89:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   90:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   91:22  error  A space is required after ','                    comma-spacing
+   91:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   92:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   93:25  error  Trailing spaces not allowed                      no-trailing-spaces
+   93:37  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   94:60  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   95:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   96:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   97:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   98:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+   99:8   error  Strings must use singlequote                     quotes
+   99:62  error  A space is required after ','                    comma-spacing
+   99:72  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  100:9   error  Unexpected var, use let or const instead         no-var
+  100:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  101:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  102:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  103:22  error  A space is required after ','                    comma-spacing
+  103:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  104:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  105:28  error  Trailing spaces not allowed                      no-trailing-spaces
+  105:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  106:63  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  107:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  108:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  109:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  110:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  111:54  error  A space is required after ','                    comma-spacing
+  111:64  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  112:9   error  Unexpected var, use let or const instead         no-var
+  112:50  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  113:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  114:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  115:22  error  A space is required after ','                    comma-spacing
+  115:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  116:21  error  Trailing spaces not allowed                      no-trailing-spaces
+  116:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  117:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  118:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  119:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  120:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  121:44  error  A space is required after ','                    comma-spacing
+  121:54  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  122:9   error  Unexpected var, use let or const instead         no-var
+  122:53  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  123:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  124:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  125:22  error  A space is required after ','                    comma-spacing
+  125:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  126:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  127:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  128:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  129:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  130:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  131:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  132:10  error  Strings must use singlequote                     quotes
+  132:29  error  A space is required after ','                    comma-spacing
+  132:34  error  Block must not be padded by blank lines          padded-blocks
+  132:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  133:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  133:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  134:8   error  Strings must use singlequote                     quotes
+  134:46  error  A space is required after ','                    comma-spacing
+  134:56  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  135:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  136:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  137:22  error  A space is required after ','                    comma-spacing
+  137:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  138:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  139:18  error  A space is required after ','                    comma-spacing
+  139:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  140:20  error  Missing space before opening brace               space-before-blocks
+  140:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  141:41  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  142:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  143:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  144:39  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  145:45  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  146:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  147:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  148:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  148:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  149:9   error  Block must not be padded by blank lines          padded-blocks
+  149:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  150:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  151:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  152:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  153:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  154:10  error  Strings must use singlequote                     quotes
+  154:28  error  A space is required after ','                    comma-spacing
+  154:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  155:8   error  Strings must use singlequote                     quotes
+  155:34  error  A space is required after ','                    comma-spacing
+  155:44  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  156:9   error  Unexpected var, use let or const instead         no-var
+  156:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  157:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  158:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  159:22  error  A space is required after ','                    comma-spacing
+  159:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  160:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  161:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  162:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  163:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  164:18  error  A space is required after ','                    comma-spacing
+  164:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  165:20  error  Missing space before opening brace               space-before-blocks
+  165:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  166:41  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  167:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  168:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  169:1   error  Line 169 exceeds the maximum line length of 80   max-len
+  169:13  error  Expected space or tab after '//' in comment      spaced-comment
+  169:85  error  Trailing spaces not allowed                      no-trailing-spaces
+  169:86  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  170:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  171:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  172:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  173:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  174:43  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  175:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  176:13  error  Expected space or tab after '//' in comment      spaced-comment
+  176:67  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  177:47  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  178:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  179:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  180:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  181:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  181:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  182:9   error  Block must not be padded by blank lines          padded-blocks
+  182:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  183:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  184:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  185:9   error  Strings must use singlequote                     quotes
+  185:55  error  A space is required after ','                    comma-spacing
+  185:65  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  186:9   error  Unexpected var, use let or const instead         no-var
+  186:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  187:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  188:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  189:22  error  A space is required after ','                    comma-spacing
+  189:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  190:21  error  Trailing spaces not allowed                      no-trailing-spaces
+  190:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  191:18  error  A space is required after ','                    comma-spacing
+  191:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  192:20  error  Missing space before opening brace               space-before-blocks
+  192:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  193:41  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  194:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  195:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  196:1   error  Line 196 exceeds the maximum line length of 80   max-len
+  196:13  error  Expected space or tab after '//' in comment      spaced-comment
+  196:85  error  Trailing spaces not allowed                      no-trailing-spaces
+  196:86  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  197:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  198:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  199:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  200:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  201:43  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  202:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  203:13  error  Expected space or tab after '//' in comment      spaced-comment
+  203:67  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  204:47  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  205:39  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  206:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  207:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  208:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  208:13  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  209:9   error  Block must not be padded by blank lines          padded-blocks
+  209:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  210:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  211:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  212:48  error  A space is required after ','                    comma-spacing
+  212:58  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  213:9   error  Unexpected var, use let or const instead         no-var
+  213:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  214:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  215:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  216:22  error  A space is required after ','                    comma-spacing
+  216:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  217:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  218:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  219:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  220:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  221:8   error  Strings must use singlequote                     quotes
+  221:44  error  A space is required after ','                    comma-spacing
+  221:54  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  222:9   error  Unexpected var, use let or const instead         no-var
+  222:63  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  223:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  224:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  225:22  error  A space is required after ','                    comma-spacing
+  225:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  226:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  227:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  228:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  229:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  230:1   error  Block must not be padded by blank lines          padded-blocks
+  230:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  231:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  232:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  233:10  error  Strings must use singlequote                     quotes
+  233:28  error  A space is required after ','                    comma-spacing
+  233:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  234:8   error  Strings must use singlequote                     quotes
+  234:32  error  A space is required after ','                    comma-spacing
+  234:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  235:9   error  Unexpected var, use let or const instead         no-var
+  235:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  236:9   error  Expected space or tab after '//' in comment      spaced-comment
+  236:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  237:9   error  Unexpected var, use let or const instead         no-var
+  237:20  error  Strings must use singlequote                     quotes
+  237:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  238:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  239:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  240:22  error  A space is required after ','                    comma-spacing
+  240:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  241:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  242:18  error  Missing space before value for key 'text'        key-spacing
+  242:23  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  243:23  error  Missing space before value for key 'completed'   key-spacing
+  243:27  error  Missing trailing comma                           comma-dangle
+  243:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  244:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  245:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  246:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  247:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  248:56  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  249:53  error  Strings must use singlequote                     quotes
+  249:63  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  250:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  251:20  error  Trailing spaces not allowed                      no-trailing-spaces
+  251:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  252:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  253:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  254:9   error  Strings must use singlequote                     quotes
+  254:59  error  A space is required after ','                    comma-spacing
+  254:69  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  255:9   error  Unexpected var, use let or const instead         no-var
+  255:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  256:9   error  Expected space or tab after '//' in comment      spaced-comment
+  256:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  257:9   error  Unexpected var, use let or const instead         no-var
+  257:20  error  Strings must use singlequote                     quotes
+  257:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  258:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  259:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  260:22  error  A space is required after ','                    comma-spacing
+  260:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  261:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  262:18  error  Missing space before value for key 'text'        key-spacing
+  262:23  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  263:23  error  Missing space before value for key 'completed'   key-spacing
+  263:27  error  Missing trailing comma                           comma-dangle
+  263:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  264:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  265:21  error  Trailing spaces not allowed                      no-trailing-spaces
+  265:28  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  266:20  error  Trailing spaces not allowed                      no-trailing-spaces
+  266:27  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  267:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  268:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  269:8   error  Strings must use singlequote                     quotes
+  269:65  error  A space is required after ','                    comma-spacing
+  269:75  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  270:13  error  Unexpected var, use let or const instead         no-var
+  270:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  271:13  error  Unexpected var, use let or const instead         no-var
+  271:24  error  Strings must use singlequote                     quotes
+  271:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  272:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  273:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  274:37  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  275:26  error  A space is required after ','                    comma-spacing
+  275:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  276:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  277:27  error  Missing space before value for key 'completed'   key-spacing
+  277:33  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  278:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  278:21  error  Missing trailing comma                           comma-dangle
+  279:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  280:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  281:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  282:55  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  283:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  284:1   error  Line 284 exceeds the maximum line length of 80   max-len
+  284:17  error  Expected space or tab after '//' in comment      spaced-comment
+  284:84  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  285:64  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  286:15  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  287:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  288:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  289:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  290:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  291:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  292:1   error  Expected space or tab after '//' in comment      spaced-comment
+  292:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  293:10  error  Strings must use singlequote                     quotes
+  293:25  error  A space is required after ','                    comma-spacing
+  293:30  error  Block must not be padded by blank lines          padded-blocks
+  293:31  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  294:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  295:8   error  Strings must use singlequote                     quotes
+  295:50  error  A space is required after ','                    comma-spacing
+  295:60  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  296:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  297:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  298:22  error  A space is required after ','                    comma-spacing
+  298:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  299:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  300:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  301:67  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  302:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  303:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  304:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  305:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  306:5   error  Block must not be padded by blank lines          padded-blocks
+  306:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  307:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  308:56  error  A space is required after ','                    comma-spacing
+  308:66  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  309:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  310:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  311:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  312:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  313:42  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  314:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  315:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  316:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  317:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  318:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  319:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  320:10  error  Strings must use singlequote                     quotes
+  320:23  error  A space is required after ','                    comma-spacing
+  320:29  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  321:30  error  A space is required after ','                    comma-spacing
+  321:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  322:9   error  Unexpected var, use let or const instead         no-var
+  322:30  error  Missing space before value for key 'email'       key-spacing
+  322:48  error  A space is required after ','                    comma-spacing
+  322:58  error  Missing space before value for key 'password'    key-spacing
+  322:69  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  323:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  324:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  325:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  326:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  327:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  328:32  error  Strings must use singlequote                     quotes
+  328:53  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  329:44  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  330:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  331:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  332:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  333:9   error  Expected space or tab after '//' in comment      spaced-comment
+  333:39  error  Trailing spaces not allowed                      no-trailing-spaces
+  333:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  334:22  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  335:20  error  Missing space before opening brace               space-before-blocks
+  335:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  336:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  337:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  338:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  339:33  error  Missing space before value for key 'email'       key-spacing
+  339:64  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  340:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  341:66  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  342:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  343:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  344:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  345:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  346:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  347:8   error  Strings must use singlequote                     quotes
+  347:61  error  A space is required after ','                    comma-spacing
+  347:71  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  348:1   error  Line 348 exceeds the maximum line length of 80   max-len
+  348:9   error  Expected space or tab after '//' in comment      spaced-comment
+  348:85  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  349:9   error  Unexpected var, use let or const instead         no-var
+  349:30  error  Missing space before value for key 'email'       key-spacing
+  349:36  error  A space is required after ','                    comma-spacing
+  349:46  error  Missing space before value for key 'password'    key-spacing
+  349:54  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  350:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  351:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  352:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  353:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  354:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  355:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  356:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  357:5   error  Block must not be padded by blank lines          padded-blocks
+  357:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  358:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  359:8   error  Strings must use singlequote                     quotes
+  359:53  error  A space is required after ','                    comma-spacing
+  359:63  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  360:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  361:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  362:22  error  Missing space before value for key 'email'       key-spacing
+  362:30  error  A space is required after ','                    comma-spacing
+  362:40  error  Missing space before value for key 'password'    key-spacing
+  362:59  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  363:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  364:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  365:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  366:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  367:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  368:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  369:10  error  Strings must use singlequote                     quotes
+  369:29  error  A space is required after ','                    comma-spacing
+  369:34  error  Block must not be padded by blank lines          padded-blocks
+  369:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  370:1   error  Trailing spaces not allowed                      no-trailing-spaces
+  370:5   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  371:8   error  Strings must use singlequote                     quotes
+  371:49  error  A space is required after ','                    comma-spacing
+  371:59  error  Trailing spaces not allowed                      no-trailing-spaces
+  371:67  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  372:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  373:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  374:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  375:19  error  Missing space before value for key 'email'       key-spacing
+  375:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  376:22  error  Missing space before value for key 'password'    key-spacing
+  376:39  error  Missing trailing comma                           comma-dangle
+  376:39  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  377:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  378:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  379:25  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  380:53  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  381:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  382:9   error  Expected space or tab after '//' in comment      spaced-comment
+  382:50  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  383:18  error  A space is required after ','                    comma-spacing
+  383:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  384:20  error  Missing space before opening brace               space-before-blocks
+  384:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  385:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  386:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  387:32  error  Missing space before value for key '_id'         key-spacing
+  387:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  388:17  error  Expected space or tab after '//' in comment      spaced-comment
+  388:80  error  Trailing spaces not allowed                      no-trailing-spaces
+  388:81  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  389:17  error  Expected space or tab after '//' in comment      spaced-comment
+  389:56  error  Trailing spaces not allowed                      no-trailing-spaces
+  389:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  390:17  error  Expected space or tab after '//' in comment      spaced-comment
+  390:81  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  391:51  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  392:28  error  Missing space before value for key 'access'      key-spacing
+  392:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  393:27  error  Missing space before value for key 'token'       key-spacing
+  393:39  error  Strings must use singlequote                     quotes
+  393:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  393:48  error  Missing trailing comma                           comma-dangle
+  394:20  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  395:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  396:40  error  Trailing spaces not allowed                      no-trailing-spaces
+  396:41  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  397:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  398:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  399:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  400:8   error  Strings must use singlequote                     quotes
+  400:38  error  A space is required after ','                    comma-spacing
+  400:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  401:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  402:30  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  403:16  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  404:19  error  Missing space before value for key 'email'       key-spacing
+  404:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  405:22  error  Missing space before value for key 'password'    key-spacing
+  405:41  error  Missing trailing comma                           comma-dangle
+  405:41  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  406:11  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  407:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  408:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  409:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  410:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  411:18  error  A space is required after ','                    comma-spacing
+  411:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  412:20  error  Missing space before opening brace               space-before-blocks
+  412:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  413:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  414:14  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  415:32  error  Missing space before value for key '_id'         key-spacing
+  415:61  error  Trailing spaces not allowed                      no-trailing-spaces
+  415:77  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  416:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  417:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  418:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  419:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  420:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  421:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  422:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  423:10  error  Strings must use singlequote                     quotes
+  423:34  error  A space is required after ','                    comma-spacing
+  423:39  error  Block must not be padded by blank lines          padded-blocks
+  423:40  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  424:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  425:47  error  A space is required after ','                    comma-spacing
+  425:56  error  Block must not be padded by blank lines          padded-blocks
+  425:57  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  426:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  427:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  428:35  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  429:22  error  A space is required after ','                    comma-spacing
+  429:48  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  430:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  431:9   error  Expected space or tab after '//' in comment      spaced-comment
+  431:69  error  Trailing spaces not allowed                      no-trailing-spaces
+  431:70  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  432:9   error  Expected space or tab after '//' in comment      spaced-comment
+  432:31  error  Trailing spaces not allowed                      no-trailing-spaces
+  432:32  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  433:18  error  A space is required after ','                    comma-spacing
+  433:26  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  434:20  error  Missing space before opening brace               space-before-blocks
+  434:21  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  435:34  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  436:14  error  Trailing spaces not allowed                      no-trailing-spaces
+  436:17  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  437:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  438:32  error  Missing space before value for key '_id'         key-spacing
+  438:61  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  439:52  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  440:53  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  441:24  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  442:40  error  Trailing spaces not allowed                      no-trailing-spaces
+  442:49  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  443:12  error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  444:8   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  445:4   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  446:1   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+
+✖ 2251 problems (2251 errors, 0 warnings)
+

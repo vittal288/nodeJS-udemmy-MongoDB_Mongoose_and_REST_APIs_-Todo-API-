@@ -88,7 +88,7 @@ app.delete('/todos',authenticate,(req,res)=>{
     }).then((result)=>{
         res.send({
             "result":`Succesfully removed ${result.result.n } (all) records !!!`
-        })
+        });
     }).catch((err)=>{
         res.status(400).send(err);
     });
@@ -114,7 +114,7 @@ app.delete('/todo/:id',authenticate,(req,res)=>{
         res.send({todo});
     }).catch((err)=>{
         res.status(400).send(err);
-    })
+    });
 });
 
 
@@ -122,7 +122,7 @@ app.delete('/todo/:id',authenticate,(req,res)=>{
 app.patch('/todo/:id',authenticate,(req,res)=>{
     var _id = req.params.id;
     if(!ObjectID.isValid(_id)){
-        return res.status(404).send()
+        return res.status(404).send();
     }
     //console.log(_id);
     //pick(utility method from lodash) only required fields from req object to update into DB 
@@ -135,7 +135,7 @@ app.patch('/todo/:id',authenticate,(req,res)=>{
         body.completedAt = new Date().getTime();
     }else{
         body.completed= false;
-        body.completedAt = null
+        body.completedAt = null;
     }
 
     //do database transanction 
@@ -144,12 +144,12 @@ app.patch('/todo/:id',authenticate,(req,res)=>{
         _creator:req.user._id
     },{$set:body},{new:true}).then((todo)=>{
         if(!todo){
-            return res.status(404).send()
+            return res.status(404).send();
         }
-        res.send({todo})
+        res.send({todo});
     },(err)=>{
         res.status(400).send(err);
-    })
+    });
 
 });
 
@@ -200,8 +200,8 @@ app.post('/users/login',(req,res)=>{
         });
 
     }).catch((err)=>{
-        res.status(400).send()
-    })
+        res.status(400).send();
+    });
 
 });
 
@@ -211,7 +211,7 @@ app.delete('/users/me/token',authenticate,(req,res)=>{
     //add a method to instance of user , because this is releated to each user 
     //req.user object is appended in middleware/authentication.js in line no 16 and 17
     req.user.removeToken(req.token).then(()=>{
-        res.status(200).send()
+        res.status(200).send();
     },(err)=>{
         res.status(400).send();
     });

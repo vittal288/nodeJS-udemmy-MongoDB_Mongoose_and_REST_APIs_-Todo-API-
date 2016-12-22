@@ -61,7 +61,7 @@ const populateUsers = (done)=>{
          var userOne = new User(users[0]).save();//promise 1
          var userTwo = new User(users[1]).save();//Promise 2
 
-         return Promise.all([userOne,userTwo])
+         return Promise.all([userOne,userTwo]);
     }).then(()=>done());
 };
 module.exports ={todos,populateTodos,users,populateUsers};

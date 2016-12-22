@@ -77,7 +77,7 @@ UserSchema.methods.removeToken=function(token){
                 token:token
             }
         }
-    })
+    });
 };
 
 
@@ -127,7 +127,7 @@ UserSchema.pre('save',function(next){
                 user.password = hash;
                 next();
             });
-        })
+        });
     }else{
         next();
     }

@@ -128,4 +128,7 @@ Integrate Swagger
 Integrate code coverage 
 Seeting JWT_SECRETE key is pending with heroku , once you set it remove it from config.json file 
 
+Generate Lint Report 
+folder path >eslint **/*.js > lint-report.txt
+
  
