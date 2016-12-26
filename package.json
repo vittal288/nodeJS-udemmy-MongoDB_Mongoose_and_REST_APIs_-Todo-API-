@@ -6,8 +6,10 @@
   "scripts": {
     "start": "export NODE_ENV=prod || SET NODE_ENV=prod && node server/server.js",
     "start-dev": "node server/server.js",
-    "test": "export NODE_ENV=test || SET NODE_ENV=test && mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec npm test"
+    "test": "mocha server/**/*.test.js",    
+    "test-watch": "nodemon --exec npm test",
+    "code-cov":"nyc --reporter=lcov --reporter=text-lcov npm test",
+    "eslint": "eslint **/*.js >lint-report.txt"
   },
   "eslintConfig": {
     "plugins": [
@@ -38,7 +40,9 @@
     "eslint-config-google": "0.7.1",
     "expect": "^1.20.2",
     "mocha": "^3.0.2",
+    "mocha-istanbul": "0.3.0",
     "nodemon": "^1.10.2",
+    "nyc": "10.0.0",
     "supertest": "^2.0.0"
   }
 }
